@@ -51,6 +51,8 @@
  https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/267105889.m3u8
 #EXTINF:-1 tvg-id="beinsports4kfeed(uydu)(1).Türkçe" tvg-name="BEIN SPORTS 4K FEED(UYDU) (1)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN SPORTS 4K FEED(UYDU) (1)
  https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/1536730627.m3u8
+#EXTINF:-1 tvg-id="beinsports5(6).Türkçe" tvg-name="BEIN SPORTS 5 (6)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN SPORTS 5 (6)
+ https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/3831757618.m3u8
 #EXTINF:-1 tvg-id="beinsports5(matchtime)(7).Türkçe" tvg-name="BEIN SPORTS 5 (MATCH TIME) (7)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN SPORTS 5 (MATCH TIME) (7)
  https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/1230448192.m3u8
 #EXTINF:-1 tvg-id="beinsports5fhd(1).Türkçe" tvg-name="BEIN SPORTS 5 FHD (1)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN SPORTS 5 FHD (1)
@@ -255,6 +257,8 @@
  https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/114261141.m3u8
 #EXTINF:-1 tvg-id="tabiispor2hd(1).Türkçe" tvg-name="TABII SPOR 2 HD (1)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TABII SPOR 2 HD (1)
  https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/2490165372.m3u8
+#EXTINF:-1 tvg-id="tabiispor2uhd(1).Türkçe" tvg-name="TABII SPOR 2 UHD (1)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TABII SPOR 2 UHD (1)
+ https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/2159469231.m3u8
 #EXTINF:-1 tvg-id="tabiispor3(6).Türkçe" tvg-name="TABII SPOR 3 (6)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TABII SPOR 3 (6)
  https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/1001346341.m3u8
 #EXTINF:-1 tvg-id="tabiispor3hd(1).Türkçe" tvg-name="TABII SPOR 3 HD (1)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TABII SPOR 3 HD (1)
@@ -675,8 +679,6 @@
  https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/645431530.m3u8
 #EXTINF:-1 tvg-id="automoto(fr)(7).Türkçe" tvg-name="AUTOMOTO (FR) (7)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", AUTOMOTO (FR) (7)
  https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/3033512963.m3u8
-#EXTINF:-1 tvg-id="avtv(1).Türkçe" tvg-name="AV TV (1)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", AV TV (1)
- https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/154080342.m3u8
 #EXTINF:-1 tvg-id="avtv(7).Türkçe" tvg-name="AV TV (7)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", AV TV (7)
  https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/3343230691.m3u8
 #EXTINF:-1 tvg-id="babaradyoarabesk(1).Türkçe" tvg-name="BABA RADYO ARABESK (1)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BABA RADYO ARABESK (1)
@@ -779,6 +781,8 @@
  https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/3030241554.m3u8
 #EXTINF:-1 tvg-id="benguturk(7).Türkçe" tvg-name="BENGUTURK (7)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BENGUTURK (7)
  https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/3677880546.m3u8
+#EXTINF:-1 tvg-id="bestaksiyon(1).Türkçe" tvg-name="BEST AKSIYON (1)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEST AKSIYON (1)
+ https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/4008602928.m3u8
 #EXTINF:-1 tvg-id="bestanimasyon(1).Türkçe" tvg-name="BEST ANIMASYON (1)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEST ANIMASYON (1)
  https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/1822425118.m3u8
 #EXTINF:-1 tvg-id="bestbilimkurgu(1).Türkçe" tvg-name="BEST BILIMKURGU (1)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEST BILIMKURGU (1)
@@ -983,8 +987,6 @@
  https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/4138115962.m3u8
 #EXTINF:-1 tvg-id="dinamikmarvel(1).Türkçe" tvg-name="DINAMIK MARVEL (1)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DINAMIK MARVEL (1)
  https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/1558936074.m3u8
-#EXTINF:-1 tvg-id="dinamiksalon1(1).Türkçe" tvg-name="DINAMIK SALON 1 (1)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DINAMIK SALON 1 (1)
- https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/4289078283.m3u8
 #EXTINF:-1 tvg-id="dinamiksalon10(1).Türkçe" tvg-name="DINAMIK SALON 10 (1)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DINAMIK SALON 10 (1)
  https://renderd-dm9o.onrender.com/proxy/m3u?url=https://vavoo.to/play3/858109830.m3u8
 #EXTINF:-1 tvg-id="dinamiksalon2(1).Türkçe" tvg-name="DINAMIK SALON 2 (1)" tvg-logo="https://i.hizliresim.com/t6e66bt.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DINAMIK SALON 2 (1)
