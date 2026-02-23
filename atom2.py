@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 START_URL    = "https://url24.link/AtomSporTV"
 MATCHES_URL  = "https://teletv3.top/load/matches.php"
 LOGO_BASE    = "https://im.mackolik.com/img/logo/buyuk"
-OUTPUT_FILE  = "atom.m3u"
+OUTPUT_FILE  = "atom_mac.m3u"
 
 GREEN  = "\033[92m"
 YELLOW = "\033[93m"
