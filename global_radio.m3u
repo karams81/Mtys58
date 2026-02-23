@@ -3475,13 +3475,13 @@ http://icecast.thisisdax.com/RadioXUKMP3.m3u
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream.kanefm.com:1037/;stream
 
-#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_28" tvg-name="LBC London (London stream) AAC" tvg-logo="http://www.lbc.co.uk/assets_v4r/lbc/img/favicon-196x196.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",LBC London (London stream) AAC
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://media-sov.musicradio.com/LBCLondon
-
-#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_29" tvg-name="Classic FM Relax" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/61wHBPSryzL.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",Classic FM Relax
+#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_28" tvg-name="Classic FM Relax" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/61wHBPSryzL.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",Classic FM Relax
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://media-the.musicradio.com/ClassicFM-M-Relax
+
+#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_29" tvg-name="LBC London (London stream) AAC" tvg-logo="http://www.lbc.co.uk/assets_v4r/lbc/img/favicon-196x196.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",LBC London (London stream) AAC
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://media-sov.musicradio.com/LBCLondon
 
 #EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_30" tvg-name="LBC London News" tvg-logo="http://lbc.co.uk/assets_v4r/lbc/img/favicon-196x196.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",LBC London News
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
