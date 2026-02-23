@@ -27,6 +27,10 @@ https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukssport/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukbeinsportsmax1/playlist.m3u8
+#EXTINF:-1 tvg-id="fenerbahce---kasimpasa-hd120-00" group-title="Spor",Fenerbahçe - Kasımpaşa HD120:00
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukobs1/playlist.m3u8
 #EXTINF:-1 tvg-id="fenerbahce---kasimpasa20-00" group-title="Spor",Fenerbahçe - Kasımpaşa20:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -87,6 +91,10 @@ https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukssport/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukssport2/playlist.m3u8
+#EXTINF:-1 tvg-id="sky-sports-f1724" group-title="Spor",Sky Sports F17/24
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuksf1/playlist.m3u8
 #EXTINF:-1 tvg-id="smart-spor724" group-title="Spor",Smart Spor7/24
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
