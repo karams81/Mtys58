@@ -1,29 +1,109 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="55e64abea0f8a5f3557b39e26ab5ea6e" tvg-name="Futbol TR GÜNÜN MAÇI - 19:59 | Süper Lig" group-title="Maçlar",Futbol TR GÜNÜN MAÇI - 19:59 | Süper Lig
+
+# ══════════════════════════════════
+#  CANLI MAÇLAR
+# ══════════════════════════════════
+
+#EXTINF:-1 tvg-id="55e64abea0f8a5f3557b39e26ab5ea6e" tvg-name="19:59 Fenerbahçe - Kasımpaşa" tvg-logo="https://im.mackolik.com/img/logo/buyuk/2.gif" group-title="Süper Lig",19:59 Fenerbahçe - Kasımpaşa
+# logo-home: https://im.mackolik.com/img/logo/buyuk/2.gif
+# logo-away: https://im.mackolik.com/img/logo/buyuk/656.gif
 #EXTVLCOPT:http-referrer=https://www.atomsportv489.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://wild-credit-2cd4.amazonaparadayanmio.workers.dev/https://corestream.ronaldovurdu.help//hls/bein-sports-11.m3u8
-#EXTINF:-1 tvg-id="dc16fe0c87d664493429b4c7a0f10084" tvg-name="FutboI 20:00 | TFF 1. Lig - Amed SK" group-title="Maçlar",FutboI 20:00 | TFF 1. Lig - Amed SK
+
+#EXTINF:-1 tvg-id="dc16fe0c87d664493429b4c7a0f10084" tvg-name="20:00 Amed SK - Van Spor FK" tvg-logo="https://im.mackolik.com/img/logo/buyuk/591.gif" group-title="TFF 1. Lig",20:00 Amed SK - Van Spor FK
+# logo-home: https://im.mackolik.com/img/logo/buyuk/591.gif
+# logo-away: https://im.mackolik.com/img/logo/buyuk/600.gif
 #EXTVLCOPT:http-referrer=https://www.atomsportv489.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://wild-credit-2cd4.amazonaparadayanmio.workers.dev/https://corestream.ronaldovurdu.help//hls/bein-sports-2.m3u8
-#EXTINF:-1 tvg-id="f78e79cdbf6c2fa4f3eb21aea486cf87" tvg-name="FutboI 20:30 | Serie A - Fiorentina" group-title="Maçlar",FutboI 20:30 | Serie A - Fiorentina
+
+#EXTINF:-1 tvg-id="f78e79cdbf6c2fa4f3eb21aea486cf87" tvg-name="20:30 Fiorentina - Pisa" tvg-logo="https://im.mackolik.com/img/logo/buyuk/1189.gif" group-title="Serie A",20:30 Fiorentina - Pisa
+# logo-home: https://im.mackolik.com/img/logo/buyuk/1189.gif
+# logo-away: https://im.mackolik.com/img/logo/buyuk/1675.gif
 #EXTVLCOPT:http-referrer=https://www.atomsportv489.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://wild-credit-2cd4.amazonaparadayanmio.workers.dev/https://corestream.ronaldovurdu.help//hls/s-sport-2.m3u8
-#EXTINF:-1 tvg-id="1ed0a706af3eb72f7c3f72723c478777" tvg-name="FutboI 22:00 | Pro Lig - Al-Qadsiah" group-title="Maçlar",FutboI 22:00 | Pro Lig - Al-Qadsiah
+
+#EXTINF:-1 tvg-id="1ed0a706af3eb72f7c3f72723c478777" tvg-name="22:00 Al-Qadsiah - Al Ettifaq" tvg-logo="https://im.mackolik.com/img/logo/buyuk/2784.gif" group-title="Pro Lig",22:00 Al-Qadsiah - Al Ettifaq
+# logo-home: https://im.mackolik.com/img/logo/buyuk/2784.gif
+# logo-away: https://im.mackolik.com/img/logo/buyuk/2788.gif
 #EXTVLCOPT:http-referrer=https://www.atomsportv489.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master_720p.m3u8
-#EXTINF:-1 tvg-id="d04ece65c28f74d7d95fa954943e585a" tvg-name="FutboI 22:45 | Serie A - Bologna" group-title="Maçlar",FutboI 22:45 | Serie A - Bologna
+
+#EXTINF:-1 tvg-id="d04ece65c28f74d7d95fa954943e585a" tvg-name="22:45 Bologna - Udinese" tvg-logo="https://im.mackolik.com/img/logo/buyuk/158.gif" group-title="Serie A",22:45 Bologna - Udinese
+# logo-home: https://im.mackolik.com/img/logo/buyuk/158.gif
+# logo-away: https://im.mackolik.com/img/logo/buyuk/168.gif
 #EXTVLCOPT:http-referrer=https://www.atomsportv489.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://wild-credit-2cd4.amazonaparadayanmio.workers.dev/https://corestream.ronaldovurdu.help//hls/s-sport-2.m3u8
-#EXTINF:-1 tvg-id="90041ae925bf975b04690e678d17cb89" tvg-name="FutboI 23:00 | Premier Lig - Everton" group-title="Maçlar",FutboI 23:00 | Premier Lig - Everton
+
+#EXTINF:-1 tvg-id="90041ae925bf975b04690e678d17cb89" tvg-name="23:00 Everton - Manchester United" tvg-logo="https://im.mackolik.com/img/logo/buyuk/27.gif" group-title="Premier Lig",23:00 Everton - Manchester United
+# logo-home: https://im.mackolik.com/img/logo/buyuk/27.gif
+# logo-away: https://im.mackolik.com/img/logo/buyuk/32.gif
 #EXTVLCOPT:http-referrer=https://www.atomsportv489.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://wild-credit-2cd4.amazonaparadayanmio.workers.dev/https://corestream.ronaldovurdu.help//hls/bein-sports-3.m3u8
-#EXTINF:-1 tvg-id="fd25e4d8f8e2da257f0da961926e386c" tvg-name="FutboI 23:00 | LaLiga - Deportivo Alaves" group-title="Maçlar",FutboI 23:00 | LaLiga - Deportivo Alaves
+
+#EXTINF:-1 tvg-id="fd25e4d8f8e2da257f0da961926e386c" tvg-name="23:00 Deportivo Alaves - Girona" tvg-logo="https://im.mackolik.com/img/logo/buyuk/90.gif" group-title="LaLiga",23:00 Deportivo Alaves - Girona
+# logo-home: https://im.mackolik.com/img/logo/buyuk/90.gif
+# logo-away: https://im.mackolik.com/img/logo/buyuk/1778.gif
 #EXTVLCOPT:http-referrer=https://www.atomsportv489.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://wild-credit-2cd4.amazonaparadayanmio.workers.dev/https://corestream.ronaldovurdu.help//hls/s-sport.m3u8
+
+# ══════════════════════════════════
+#  TV KANALLARI
+# ══════════════════════════════════
+
+#EXTINF:-1 tvg-id="bein-sports-1" tvg-name="BEIN SPORTS 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png" group-title="TV Kanalları",BEIN SPORTS 1
+#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://wild-credit-2cd4.amazonaparadayanmio.workers.dev/https://corestream.ronaldovurdu.help//hls/bein-sports-11.m3u8
+
+#EXTINF:-1 tvg-id="bein-sports-2" tvg-name="BEIN SPORTS 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/BeIN_Sports_2_HD.svg/200px-BeIN_Sports_2_HD.svg.png" group-title="TV Kanalları",BEIN SPORTS 2
+#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://wild-credit-2cd4.amazonaparadayanmio.workers.dev/https://corestream.ronaldovurdu.help//hls/bein-sports-2.m3u8
+
+#EXTINF:-1 tvg-id="bein-sports-3" tvg-name="BEIN SPORTS 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/BeIN_Sports_3_HD.svg/200px-BeIN_Sports_3_HD.svg.png" group-title="TV Kanalları",BEIN SPORTS 3
+#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://wild-credit-2cd4.amazonaparadayanmio.workers.dev/https://corestream.ronaldovurdu.help//hls/bein-sports-3.m3u8
+
+#EXTINF:-1 tvg-id="bein-sports-4" tvg-name="BEIN SPORTS 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/BeIN_Sports_4_HD.svg/200px-BeIN_Sports_4_HD.svg.png" group-title="TV Kanalları",BEIN SPORTS 4
+#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://wild-credit-2cd4.amazonaparadayanmio.workers.dev/https://corestream.ronaldovurdu.help//hls/bein-sports-4.m3u8
+
+#EXTINF:-1 tvg-id="s-sport" tvg-name="S SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/S_Sport_logo.svg/200px-S_Sport_logo.svg.png" group-title="TV Kanalları",S SPORT
+#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://wild-credit-2cd4.amazonaparadayanmio.workers.dev/https://corestream.ronaldovurdu.help//hls/s-sport.m3u8
+
+#EXTINF:-1 tvg-id="s-sport-2" tvg-name="S SPORT 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/S_Sport_logo.svg/200px-S_Sport_logo.svg.png" group-title="TV Kanalları",S SPORT 2
+#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://wild-credit-2cd4.amazonaparadayanmio.workers.dev/https://corestream.ronaldovurdu.help//hls/s-sport-2.m3u8
+
+#EXTINF:-1 tvg-id="tivibu-spor-1" tvg-name="TİVİBU SPOR 1" group-title="TV Kanalları",TİVİBU SPOR 1
+#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://wild-credit-2cd4.amazonaparadayanmio.workers.dev/https://corestream.ronaldovurdu.help//hls/tivibu-spor-1.m3u8
+
+#EXTINF:-1 tvg-id="tivibu-spor-2" tvg-name="TİVİBU SPOR 2" group-title="TV Kanalları",TİVİBU SPOR 2
+#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://wild-credit-2cd4.amazonaparadayanmio.workers.dev/https://corestream.ronaldovurdu.help//hls/tivibu-spor-2.m3u8
+
+#EXTINF:-1 tvg-id="tivibu-spor-3" tvg-name="TİVİBU SPOR 3" group-title="TV Kanalları",TİVİBU SPOR 3
+#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://wild-credit-2cd4.amazonaparadayanmio.workers.dev/https://corestream.ronaldovurdu.help//hls/tivibu-spor-3.m3u8
+
+#EXTINF:-1 tvg-id="trt-spor" tvg-name="TRT SPOR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/TRT_Spor_logo.svg/200px-TRT_Spor_logo.svg.png" group-title="TV Kanalları",TRT SPOR
+#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://wild-credit-2cd4.amazonaparadayanmio.workers.dev/https://corestream.ronaldovurdu.help//hls/trt-spor.m3u8
+
