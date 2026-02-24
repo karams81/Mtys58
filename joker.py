@@ -1,69 +1,100 @@
 import re
 import requests
 import urllib3
-import base64
+import json
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Ayarlar
-TARGET_URL = "https://jokerbettv177.com/"
-# Google üzerinden dolanarak Cloudflare'i kandırmaya çalışıyoruz
-PROXY_URL = f"https://www.google.com/search?q={TARGET_URL}"
+TARGET_URL = "https://27intersportv.us"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 
+# Sabit Kanallar Listesi
+SABIT_KANALLAR = [
+    ("beIN SPORTS HD1", "bein-sports-1.m3u8"),
+    ("beIN SPORTS HD2", "bein-sports-2.m3u8"),
+    ("beIN SPORTS HD3", "bein-sports-3.m3u8"),
+    ("S SPORT", "s-sport.m3u8"),
+    ("S SPORT 2", "s-sport-2.m3u8"),
+    ("TIVIBUSPOR 1", "tivibu-spor.m3u8"),
+    ("TIVIBUSPOR 2", "tivibu-spor-2.m3u8"),
+    ("TRT SPOR", "trt-spor.m3u8"),
+    ("TV 8.5", "tv8.5.m3u8"),
+    ("ASPOR", "a-spor.m3u8")
+]
+
 def get_html():
-    # GitHub IP'si yerine bir proxy üzerinden istek atıyoruz
-    # AllOrigins servisi genellikle bu tür engelleri aşmak için iyidir
-    proxy_apis = [
+    # GitHub engellerini aşmak için farklı proxy servisleri
+    proxies = [
         f"https://api.allorigins.win/get?url={TARGET_URL}",
+        f"https://api.codetabs.com/v1/proxy/?quest={TARGET_URL}",
         f"https://thingproxy.freeboard.io/fetch/{TARGET_URL}"
     ]
     
-    for api in proxy_apis:
+    for url in proxies:
         try:
-            print(f"🔄 Proxy deneniyor: {api[:40]}...")
-            res = requests.get(api, headers={"User-Agent": UA}, timeout=25)
-            
+            print(f"🔄 Bağlanıyor: {url[:50]}...")
+            res = requests.get(url, headers={"User-Agent": UA}, timeout=20)
             if res.status_code == 200:
-                # AllOrigins veriyi 'contents' anahtarı içinde döndürür
-                if "allorigins" in api:
+                # Allorigins JSON formatında döner, diğerleri direkt text
+                if "allorigins" in url:
                     return res.json().get('contents', '')
                 return res.text
         except Exception as e:
-            print(f"⚠️ Proxy hatası: {e}")
+            print(f"⚠️ Proxy hatası ({url[:25]}): {e}")
             continue
-            
     return None
 
 def main():
     html = get_html()
-    if not html or "data-stream" not in html:
-        print("❌ Hiçbir proxy üzerinden içerik alınamadı.")
+    if not html:
+        print("❌ Site içeriği alınamadı. Proxy servisleri yanıt vermiyor olabilir.")
         return
 
-    # Sunucu adresini (workers.dev) bul
-    base_match = re.search(r'(https?://[.\w-]+\.workers\.dev/)', html)
-    base_url = base_match.group(1) if base_match else "https://pix.xsiic.workers.dev/"
-    print(f"📡 Yayın Sunucusu Bulundu: {base_url}")
+    # 1. GÜNCEL SUNUCUYU TESPİT ET (Meta etiketinden)
+    # <meta name="fbd" content="https://pix.xmlx.workers.dev/hls">
+    base_match = re.search(r'meta name="fbd" content="([^"]+)"', html)
+    if base_match:
+        base_url = base_match.group(1).split('/hls')[0] + "/"
+    else:
+        # Alternatif: Script içindeki dns-prefetch üzerinden bul
+        base_match = re.search(r'https?://[.\w-]+\.workers\.dev', html)
+        base_url = base_match.group(0) + "/" if base_match else "https://pix.xmlx.workers.dev/"
+    
+    print(f"📡 Yayın Sunucusu: {base_url}")
 
     m3u = ["#EXTM3U"]
-    
-    # 1. Canlı Maçları Ayıkla
-    matches = re.findall(r'data-stream="([^"]+)".*?data-name="([^"]+)"', html, re.IGNORECASE | re.DOTALL)
-    
-    for stream_id, name in matches:
-        clean_name = name.strip().upper()
-        pure_id = stream_id.replace('betlivematch-', '')
-        link = f"{base_url}hls/{pure_id}.m3u8" if pure_id.isdigit() else f"{base_url}{pure_id}.m3u8"
 
+    # 2. SABİT KANALLARI EKLE
+    for name, file in SABIT_KANALLAR:
+        m3u.append(f'#EXTINF:-1 group-title="📺 SABİT KANALLAR",{name}')
+        m3u.append(f'#EXTVLCOPT:http-user-agent={UA}')
+        m3u.append(f'#EXTVLCOPT:http-referrer={TARGET_URL}/')
+        m3u.append(f"{base_url}{file}")
+
+    # 3. CANLI MAÇLARI EKLE (data-streamx ve data-name üzerinden)
+    # Yeni yapıda linkler data-streamx="https://.../mac.m3u8" şeklinde tam URL olabiliyor
+    matches = re.findall(r'data-streamx="([^"]+)".*?data-name="([^"]+)"', html, re.DOTALL)
+    
+    added_streams = []
+    for stream_url, name in matches:
+        clean_name = name.strip().upper()
+        if clean_name in added_streams: continue # Tekrar edenleri engelle
+        
+        # URL'yi temizle ve gerekirse base_url ekle
+        final_link = stream_url if stream_url.startswith('http') else f"{base_url}{stream_url}"
+        
         m3u.append(f'#EXTINF:-1 group-title="⚽ CANLI MAÇLAR",{clean_name}')
         m3u.append(f'#EXTVLCOPT:http-user-agent={UA}')
-        m3u.append(f'#EXTVLCOPT:http-referrer={TARGET_URL}')
-        m3u.append(link)
+        m3u.append(f'#EXTVLCOPT:http-referrer={TARGET_URL}/')
+        m3u.append(final_link)
+        added_streams.append(clean_name)
 
+    # 4. KAYDET
     with open("joker.m3u8", "w", encoding="utf-8") as f:
         f.write("\n".join(m3u))
-    print(f"🚀 Başarılı! {len(matches)} adet maç joker.m3u8 dosyasına eklendi.")
+    
+    print(f"🚀 Başarılı! {len(added_streams)} canlı maç ve sabit kanallar joker.m3u8 dosyasına yazıldı.")
 
 if __name__ == "__main__":
     main()
