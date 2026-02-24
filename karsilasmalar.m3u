@@ -3,14 +3,14 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://inattv1264.xyz/
 https://8pi.d72577a9dd0ec30.sbs/ex7/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",20:45 | Yalnızca Türkiye'den izlenebilir. | Atletico Madrid - Club Brugge
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://inattv1264.xyz/
+https://8pi.d72577a9dd0ec30.sbs/https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master.m3u8/mono.m3u8
 #EXTINF:-1 group-title="Canlı Maçlar",22:00 | Al Taawon - Al Hilal Riyadh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://inattv1264.xyz/
 https://8pi.d72577a9dd0ec30.sbs/ex3/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",22:00 | Al Hazm - Al Ittihad
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://inattv1264.xyz/
-https://8pi.d72577a9dd0ec30.sbs/ex4/mono.m3u8
 #EXTINF:-1 group-title="Canlı Maçlar",23:00 | Southampton - QPR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://inattv1264.xyz/
@@ -19,14 +19,26 @@ https://8pi.d72577a9dd0ec30.sbs/ex4/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://inattv1264.xyz/
 https://8pi.d72577a9dd0ec30.sbs/ex1/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Yalnızca Türkiye'den izlenebilir. | Leverkusen - Olympiakos
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://inattv1264.xyz/
+https://8pi.d72577a9dd0ec30.sbs/https://iaqzu4szhtzeqd0edpsayinle.medya.trt.com.tr/master.m3u8/mono.m3u8
 #EXTINF:-1 group-title="Canlı Maçlar",23:00 | Newcastle - Karabağ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://inattv1264.xyz/
 https://8pi.d72577a9dd0ec30.sbs/ex2/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Yalnızca Türkiye'den izlenebilir. | Newcastle - Karabağ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://inattv1264.xyz/
+https://8pi.d72577a9dd0ec30.sbs/https://klublsslubcgyiz7zqt5bz8il.medya.trt.com.tr/master.m3u8/mono.m3u8
 #EXTINF:-1 group-title="Canlı Maçlar",23:00 | Inter - Bodo/Glimt
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://inattv1264.xyz/
 https://8pi.d72577a9dd0ec30.sbs/ex7/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Yalnızca Türkiye'den izlenebilir. | Inter - Bodo/Glimt
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://inattv1264.xyz/
+https://8pi.d72577a9dd0ec30.sbs/https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master.m3u8/mono.m3u8
 #EXTINF:-1 group-title="7/24 Kanallar",beIN Sports 1 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://inattv1264.xyz/
