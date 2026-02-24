@@ -1,14 +1,14 @@
 import re
-import cloudscraper # requests yerine cloudflare aşan scraper kullanıyoruz
+import cloudscraper
 import urllib3
 
+# SSL uyarılarını kapat
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Ayarlar
 TARGET_URL = "https://jokerbettv177.com/"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 
-# SABİT KANALLAR LİSTESİ
 SABIT_KANALLAR = [
     ("beIN SPORTS HD1", "bein-sports-1.m3u8"),
     ("beIN SPORTS HD2", "bein-sports-2.m3u8"),
@@ -41,7 +41,7 @@ SABIT_KANALLAR = [
 ]
 
 def get_html():
-    # Cloudflare korumasını aşmak için scraper oluşturuyoruz
+    # Cloudflare korumasını aşmak için gerçek bir tarayıcı simüle edilir
     scraper = cloudscraper.create_scraper(
         browser={
             'browser': 'chrome',
@@ -49,63 +49,53 @@ def get_html():
             'desktop': True
         }
     )
-    
     try:
-        print(f"🔄 Güvenlik duvarı aşılıyor: {TARGET_URL}")
-        # Doğrudan siteye istek atıyoruz, scraper engelleri temizleyecektir
-        res = scraper.get(TARGET_URL, timeout=20)
-        
+        print(f"🔄 Veri çekiliyor: {TARGET_URL}")
+        res = scraper.get(TARGET_URL, timeout=30)
         if res.status_code == 200:
-            print("✅ Site içeriği başarıyla alındı.")
             return res.text
-        else:
-            print(f"⚠️ Hata Kodu: {res.status_code}")
     except Exception as e:
-        print(f"❌ Bağlantı Hatası: {e}")
-    
+        print(f"❌ Bağlantı hatası: {e}")
     return None
 
 def main():
     html = get_html()
     if not html:
-        print("❌ Siteye ulaşılamadı. VPN açık olduğundan emin olun veya DNS değiştirin.")
+        print("❌ Site içeriği okunamadı!")
         return
 
-    # 1. GÜNCEL SUNUCUYU BUL (Workers.dev linkini yakalar)
+    # Sunucu adresini (workers.dev) bul
     base_match = re.search(r'(https?://[.\w-]+\.workers\.dev/)', html)
     base_url = base_match.group(1) if base_match else "https://pix.xsiic.workers.dev/"
-    print(f"📡 Aktif Sunucu: {base_url}")
+    print(f"📡 Aktif Yayın Sunucusu: {base_url}")
 
     m3u = ["#EXTM3U"]
 
-    # 2. SABİT KANALLARI EKLE
+    # 1. Sabit Kanalları Ekle
     for name, file in SABIT_KANALLAR:
-        m3u.append(f'#EXTINF:-1 group-title="📺 SABİT KANALLAR",{name}')
+        m3u.append(f'#EXTINF:-1 group-title="📺 KANALLAR",{name}')
         m3u.append(f'#EXTVLCOPT:http-user-agent={UA}')
         m3u.append(f'#EXTVLCOPT:http-referrer={TARGET_URL}')
         m3u.append(f"{base_url}{file}")
 
-    # 3. CANLI MAÇLARI EKLE
+    # 2. Canlı Maçları Ekle
     matches = re.findall(r'data-stream="([^"]+)".*?data-name="([^"]+)"', html, re.DOTALL)
     for stream_id, name in matches:
         clean_name = name.strip().upper()
         pure_id = stream_id.replace('betlivematch-', '')
         
-        if pure_id.isdigit():
-            link = f"{base_url}hls/{pure_id}.m3u8"
-        else:
-            link = f"{base_url}{pure_id}.m3u8"
+        # Sayı ise hls klasöründe, değilse ana dizindedir
+        link = f"{base_url}hls/{pure_id}.m3u8" if pure_id.isdigit() else f"{base_url}{pure_id}.m3u8"
 
         m3u.append(f'#EXTINF:-1 group-title="⚽ CANLI MAÇLAR",{clean_name}')
         m3u.append(f'#EXTVLCOPT:http-user-agent={UA}')
         m3u.append(f'#EXTVLCOPT:http-referrer={TARGET_URL}')
         m3u.append(link)
 
-    # 4. KAYDET
-    file_name = "joker.m3u8"
-    with open(file_name, "w", encoding="utf-8") as f:
+    # 3. Dosyaya Yaz
+    with open("joker.m3u8", "w", encoding="utf-8") as f:
         f.write("\n".join(m3u))
-    print(f"🚀 Başarılı! {file_name} dosyası oluşturuldu.")
+    print("🚀 Başarılı: joker.m3u8 dosyası güncellendi.")
 
 if __name__ == "__main__":
     main()
