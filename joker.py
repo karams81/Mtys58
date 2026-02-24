@@ -14,13 +14,31 @@ SABIT_KANALLAR = [
     ("beIN SPORTS HD1", "bein-sports-1.m3u8"),
     ("beIN SPORTS HD2", "bein-sports-2.m3u8"),
     ("beIN SPORTS HD3", "bein-sports-3.m3u8"),
+    ("beIN SPORTS HD4", "bein-sports-4.m3u8"),
+    ("beIN SPORTS HD5", "bein-sports-5.m3u8"),
+    ("beIN SPORTS MAX 1", "bein-sports-max-1.m3u8"),
+    ("beIN SPORTS MAX 2", "bein-sports-max-2.m3u8"),
     ("S SPORT", "s-sport.m3u8"),
     ("S SPORT 2", "s-sport-2.m3u8"),
     ("TIVIBUSPOR 1", "tivibu-spor.m3u8"),
     ("TIVIBUSPOR 2", "tivibu-spor-2.m3u8"),
+    ("TIVIBUSPOR 3", "tivibu-spor-3.m3u8"),
+    ("TIVIBUSPOR 4", "tivibu-spor-4.m3u8"),
+    ("spor SMART", "spor-smart.m3u8"),
+    ("spor SMART 2", "spor-smart-2.m3u8"),
     ("TRT SPOR", "trt-spor.m3u8"),
-    ("TV 8.5", "tv8.5.m3u8"),
-    ("ASPOR", "a-spor.m3u8")
+    ("TRT SPOR 2", "trt-spor-yildiz.m3u8"),
+    ("TRT 1", "trt-1.m3u8"),
+    ("ASPOR", "a-spor.m3u8"),
+    ("TABİİ SPOR", "tabii-spor.m3u8"),
+    ("TABİİ SPOR 1", "tabii-spor-1.m3u8"),
+    ("TABİİ SPOR 2", "tabii-spor-2.m3u8"),
+    ("TABİİ SPOR 3", "tabii-spor-3.m3u8"),
+    ("TABİİ SPOR 4", "tabii-spor-4.m3u8"),
+    ("TABİİ SPOR 5", "tabii-spor-5.m3u8"),
+    ("TABİİ SPOR 6", "tabii-spor-6.m3u8"),
+    ("ATV", "atv.m3u8"),
+    ("TV 8.5", "tv8.5.m3u8")
 ]
 
 def get_html():
