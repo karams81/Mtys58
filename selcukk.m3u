@@ -1,32 +1,60 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="bayer-leverkusen---olympiakos23-00" group-title="Spor",Bayer Leverkusen - Olympiakos23:00
+#EXTINF:-1 tvg-id="real-madrid---chelsea18-00" group-title="Spor",Real Madrid - Chelsea18:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktabiispor2/playlist.m3u8
-#EXTINF:-1 tvg-id="inter---bodo-glimt23-00" group-title="Spor",Inter - Bodo Glimt23:00
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktrtspor/playlist.m3u8
+#EXTINF:-1 tvg-id="atalanta---bdortmund20-45" group-title="Spor",Atalanta - B.Dortmund20:45
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktabiispor1/playlist.m3u8
-#EXTINF:-1 tvg-id="newcastle---karabag23-00" group-title="Spor",Newcastle - Karabağ23:00
+#EXTINF:-1 tvg-id="juventus---galatasaray23-00" group-title="Spor",Juventus - Galatasaray23:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktabiispor3/playlist.m3u8
-#EXTINF:-1 tvg-id="cosorio---jtjen23-00" group-title="Spor",C.Osorio - J.Tjen23:00
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktrt1/playlist.m3u8
+#EXTINF:-1 tvg-id="real-madrid---benfica23-00" group-title="Spor",Real Madrid - Benfica23:00
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktabiispor1/playlist.m3u8
+#EXTINF:-1 tvg-id="cleveland-cavaliers---new-york-knicks03-30" group-title="Spor",Cleveland Cavaliers - New York Knicks03:30
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukssport/playlist.m3u8
+#EXTINF:-1 tvg-id="la-lakers---orlando-magic06-30" group-title="Spor",LA Lakers - Orlando Magic06:30
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukssport/playlist.m3u8
+#EXTINF:-1 tvg-id="fenerbahce-beko---partizan20-45" group-title="Spor",Fenerbahçe Beko - Partizan20:45
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukssport/playlist.m3u8
+#EXTINF:-1 tvg-id="kizilyildiz---anadolu-efes22-30" group-title="Spor",Kizilyildiz - Anadolu Efes22:30
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukssport2/playlist.m3u8
+#EXTINF:-1 tvg-id="cbrace---zeynep-sonmez03-00" group-title="Spor",C.Brace - Zeynep Sönmez03:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukbeinsportsmax1/playlist.m3u8
-#EXTINF:-1 tvg-id="bayer-leverkusen---olympiakos23-00" group-title="Spor",Bayer Leverkusen - Olympiakos23:00
+#EXTINF:-1 tvg-id="phon---rzarazua05-00" group-title="Spor",P.Hon - R.Zarazua05:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktabiispor2/playlist.m3u8
-#EXTINF:-1 tvg-id="inter---bodo-glimt23-00" group-title="Spor",Inter - Bodo Glimt23:00
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukbeinsportsmax1/playlist.m3u8
+#EXTINF:-1 tvg-id="real-madrid---chelsea18-00" group-title="Spor",Real Madrid - Chelsea18:00
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktrtspor/playlist.m3u8
+#EXTINF:-1 tvg-id="atalanta---bdortmund20-45" group-title="Spor",Atalanta - B.Dortmund20:45
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktabiispor1/playlist.m3u8
-#EXTINF:-1 tvg-id="newcastle---karabag23-00" group-title="Spor",Newcastle - Karabağ23:00
+#EXTINF:-1 tvg-id="juventus---galatasaray23-00" group-title="Spor",Juventus - Galatasaray23:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktabiispor3/playlist.m3u8
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktrt1/playlist.m3u8
+#EXTINF:-1 tvg-id="real-madrid---benfica23-00" group-title="Spor",Real Madrid - Benfica23:00
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktabiispor1/playlist.m3u8
 #EXTINF:-1 tvg-id="bein-sports-1724" group-title="Spor",Bein Sports 17/24
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
