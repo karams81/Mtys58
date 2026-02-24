@@ -1,33 +1,27 @@
 # -*- coding: utf-8 -*-
-import re
-import sys
-import time
-import requests
-import urllib3
+import re, sys, requests, urllib3
+import io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# --- AYARLAR ----------------------------------------------------------------
+# ====================================================================
+# WORKER URL (kendi worker'in)
+WORKER = "https://jokertvproxy.metvmetv33.workers.dev/"
+# ====================================================================
 TARGET_URL  = "https://jokerbettvi177.com/"
-UA = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/120.0.0.0 Safari/537.36"
-)
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+      "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
 CIKTI_DOSYA = "joker.m3u8"
 
-# Cloudflare Workers proxy (VPN gerektirmez)
-CF_PROXY = "https://rapid-wave-c8e3.redfor14314.workers.dev/"
-
-URLLER = [
-    CF_PROXY + "https://jokerbettvi177.com",
-    CF_PROXY + "https://jokerbettvi178.com",
-    CF_PROXY + "https://jokerbettvi179.com",
-    CF_PROXY + "https://jokerbettvi180.com",
-    "https://jokerbettvi177.com/",
-    "https://jokerbettvi178.com/",
+# Site mirror adresleri
+SITELER = [
+    "https://jokerbettvi177.com",
+    "https://jokerbettvi178.com",
+    "https://jokerbettvi179.com",
+    "https://jokerbettvi180.com",
 ]
 
-# --- SABIT KANALLAR ---------------------------------------------------------
 SABIT_KANALLAR = [
     ("beIN SPORTS HD1",   "bein-sports-1.m3u8"),
     ("beIN SPORTS HD2",   "bein-sports-2.m3u8"),
@@ -59,39 +53,43 @@ SABIT_KANALLAR = [
     ("TV 8.5",            "tv8.5.m3u8"),
 ]
 
-# ============================================================================
 def get_html():
-    headers = {
-        "User-Agent": UA,
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "tr-TR,tr;q=0.9",
-    }
-    for url in URLLER:
-        label = "[CF-PROXY]" if CF_PROXY in url else "[DIREKT] "
+    headers = {"User-Agent": UA, "Accept": "text/html", "Accept-Language": "tr-TR,tr;q=0.9"}
+    # Once worker ile dene, sonra direkt
+    urls = [(f"[WORKER]", WORKER.rstrip("/") + "/" + s) for s in SITELER]
+    urls += [(f"[DIREKT]", s + "/") for s in SITELER]
+
+    for label, url in urls:
         try:
             print(f"{label} {url}")
-            res = requests.get(url, headers=headers, timeout=25, verify=False)
-            if res.status_code == 200 and "data-stream" in res.text:
-                print(f"[OK] Basarili! ({len(res.text)} byte)")
-                return res.text
-            print(f"[--] HTTP {res.status_code}")
+            r = requests.get(url, headers=headers, timeout=20, verify=False)
+            if r.status_code == 200 and "data-stream" in r.text:
+                print(f"[OK] Basarili! ({len(r.text):,} byte)")
+                with open("html_source.html", "w", encoding="utf-8") as f:
+                    f.write(r.text)
+                return r.text
+            print(f"[--] HTTP {r.status_code}")
         except Exception as e:
             print(f"[--] {e}")
+
+    # Son care: onbellekten oku
+    try:
+        with open("html_source.html", "r", encoding="utf-8", errors="ignore") as f:
+            c = f.read()
+        if "data-stream" in c:
+            print("[~] Onbellekten okundu.")
+            return c
+    except: pass
     return None
 
-# ============================================================================
 def build_m3u8(html):
-    base_match = re.search(r'(https?://[.\w-]+\.workers\.dev/)', html)
-    base_url = base_match.group(1) if base_match else "https://pix.xmlx.workers.dev/"
-
-    # Proxy URL'si CDN olarak algilanmasin
-    if "redfor14314" in base_url:
-        base_url = "https://pix.xmlx.workers.dev/"
-
-    print(f"[i]  CDN: {base_url}")
+    # CDN sunucusunu bul (worker URL'si degil)
+    candidates = re.findall(r'https?://[.\w-]+\.workers\.dev/', html)
+    base_url = next((u for u in candidates if "jokertvproxy" not in u and "redfor" not in u),
+                    "https://pix.xmlx.workers.dev/")
+    print(f"[i] CDN: {base_url}")
 
     lines = ["#EXTM3U"]
-
     for name, file in SABIT_KANALLAR:
         lines += [
             f'#EXTINF:-1 group-title="SABIT KANALLAR",{name}',
@@ -101,28 +99,19 @@ def build_m3u8(html):
         ]
 
     a_tags = re.findall(r'<a\s[^>]*data-stream="[^"]*"[^>]*>', html, re.DOTALL)
-    seen  = set()
-    count = 0
+    seen, count = set(), 0
     for tag in a_tags:
         s = re.search(r'data-stream="([^"]+)"', tag)
-        n = re.search(r'data-name="([^"]+)"',   tag)
+        n = re.search(r'data-name="([^"]+)"', tag)
         t = re.search(r'data-matchtype="([^"]+)"', tag)
-        if not (s and n):
-            continue
-        stream_id = s.group(1)
-        if stream_id in seen:
-            continue
-        seen.add(stream_id)
-
+        if not (s and n): continue
+        sid = s.group(1)
+        if sid in seen: continue
+        seen.add(sid)
         name  = n.group(1).strip()
         sport = t.group(1) if t else "Diger"
-
-        if stream_id.startswith("betlivematch-"):
-            pure = stream_id.replace("betlivematch-", "")
-            link = f"{base_url}hls/{pure}.m3u8"
-        else:
-            link = f"{base_url}{stream_id}.m3u8"
-
+        pure  = sid.replace("betlivematch-", "")
+        link  = f"{base_url}hls/{pure}.m3u8" if sid.startswith("betlivematch-") else f"{base_url}{sid}.m3u8"
         lines += [
             f'#EXTINF:-1 group-title="CANLI - {sport}",{name}',
             f'#EXTVLCOPT:http-user-agent={UA}',
@@ -131,23 +120,20 @@ def build_m3u8(html):
         ]
         count += 1
 
-    print(f"[i]  {count} canli mac eklendi.")
+    print(f"[i] {count} canli mac eklendi.")
     return "\n".join(lines)
 
-# ============================================================================
 def main():
     print("=" * 55)
     print("  Joker M3U8 Uretici")
+    print(f"  Worker: {WORKER}")
     print("=" * 55)
 
     html = get_html()
-
     if not html:
-        print("[!!] HTML alinamadi, cikiliyor.")
-        sys.exit(1)  # GitHub Actions'ta hata olarak isaretle
+        print("[!!] HTML alinamadi!"); sys.exit(1)
 
     content = build_m3u8(html)
-
     with open(CIKTI_DOSYA, "w", encoding="utf-8") as f:
         f.write(content)
 
