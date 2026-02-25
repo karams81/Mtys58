@@ -18,7 +18,7 @@ def get_active_domain():
     try:
         print("🔍 Aktif domain yönlendirme sayfasından alınıyor...")
         r = requests.get(REDIRECT_SOURCE, timeout=10)
-        # Yeni yapıda URL doğrudan text içinde gelebildiği için kontrolü genişlettik
+        # Düzenleme: Sayfa içeriğindeki ilk temiz http/https linkini bulur
         match = re.search(r'(https?://[^\s"<]+)', r.text)
         if match:
             domain = match.group(1).rstrip('/')
@@ -32,8 +32,10 @@ def resolve_base_url(active_domain):
     """Yayın sunucusunun base adresini bulur."""
     target = f"{active_domain}/channel.html?id=taraftarium"
     try:
-        r = requests.get(target, headers={**HEADERS, "Referer": active_domain + "/"}, timeout=10, verify=False)
-        # Yeni yapıdaki URL patternini ara
+        # verify=False ekledik çünkü SSL sertifikası hatalı olabilir
+        r = requests.get(target, headers={**HEADERS, "Referer": active_domain + "/"}, timeout=15, verify=False)
+        
+        # M3U8 patternini ara
         match = re.search(r'["\'](https?://[^\s"\']+?)/[\w\-]+/mono\.m3u8', r.text)
         if match:
             return match.group(1).rstrip('/') + "/"
@@ -96,7 +98,7 @@ def main():
 
     try:
         print("📡 Canlı maçlar taranıyor...")
-        resp = requests.get(active_domain, headers=HEADERS, timeout=10, verify=False)
+        resp = requests.get(active_domain, headers=HEADERS, timeout=15, verify=False)
         resp.encoding = "utf-8"
         soup = BeautifulSoup(resp.text, "html.parser")
 
