@@ -9,7 +9,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Ayarlar
 # Eğer verdiğiniz URL değişirse, sistem numara artırarak deneme yapacak
-START_URL = "https://inattv1264.xyz" 
+START_URL = "https://inattv1265.xyz" 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
 }
@@ -78,7 +78,7 @@ def main():
         print(f"✅ Yayın sunucusu tespit edildi: {base_url}")
 
     fixed_channels = {
-        "zirve": "beIN Sports 1 A", "trgoals": "beIN Sports 1 B", "yayin1": "beIN Sports 1 C",
+        "zirve": "beIN Sports 1 A", "patron": "beIN Sports 1 B", "taraftarium": "beIN Sports 1 C",
         "patron": "beIN Sports 1 D", "b2": "beIN Sports 2", "b3": "beIN Sports 3",
         "b4": "beIN Sports 4", "b5": "beIN Sports 5", "bm1": "beIN Sports 1 Max",
         "bm2": "beIN Sports 2 Max", "ss1": "S Sports 1", "ss2": "S Sports 2",
