@@ -4,40 +4,61 @@
 #  CANLI MAÇLAR
 # ══════════════════════════════════
 
-#EXTINF:-1 tvg-id="a4700e72034ac37d307c116bf1d29f2a" tvg-name="20:45 Atletico Madrid - Club Brugge" tvg-logo="https://im.mackolik.com/img/logo/buyuk/86.gif" group-title="Eleme Turu Play-off",20:45 Atletico Madrid - Club Brugge
-# logo-home: https://im.mackolik.com/img/logo/buyuk/86.gif
-# logo-away: https://im.mackolik.com/img/logo/buyuk/251.gif
+#EXTINF:-1 tvg-id="4f399ab68361b39af0d1508c87470436" tvg-name="18:00 Real Madrid U19 - Chelsea U19" tvg-logo="https://im.mackolik.com/img/logo/buyuk/18092.gif" group-title="Son 16 Turu",18:00 Real Madrid U19 - Chelsea U19
+# logo-home: https://im.mackolik.com/img/logo/buyuk/18092.gif
+# logo-away: https://im.mackolik.com/img/logo/buyuk/16221.gif
 #EXTVLCOPT:http-referrer=https://www.atomsportv489.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/tabii.m3u8
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:-1 tvg-id="2d50ae824468d40606987ab91ae73e5d" tvg-name="22:00 Al Taawon - Al Hilal Riyadh" tvg-logo="https://im.mackolik.com/img/logo/buyuk/8743.gif" group-title="Pro Lig",22:00 Al Taawon - Al Hilal Riyadh
-# logo-home: https://im.mackolik.com/img/logo/buyuk/8743.gif
-# logo-away: https://im.mackolik.com/img/logo/buyuk/2783.gif
+#EXTINF:-1 tvg-id="e60015fffe770a369c8934e51b4599ba" tvg-name="20:45 Atalanta - Borussia Dortmund" tvg-logo="https://im.mackolik.com/img/logo/buyuk/171.gif" group-title="Eleme Turu Play-off",20:45 Atalanta - Borussia Dortmund
+# logo-home: https://im.mackolik.com/img/logo/buyuk/171.gif
+# logo-away: https://im.mackolik.com/img/logo/buyuk/120.gif
 #EXTVLCOPT:http-referrer=https://www.atomsportv489.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://ujnf69op16x2fiiywxcnx41q8.medya.trt.com.tr/master_720p.m3u8
+https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master_720p.m3u8
 
-#EXTINF:-1 tvg-id="31fa58922f465a5395781977dbd8f5e0" tvg-name="23:00 Bayer Leverkusen - Olympiakos" tvg-logo="https://im.mackolik.com/img/logo/buyuk/133.gif" group-title="Eleme Turu Play-off",23:00 Bayer Leverkusen - Olympiakos
-# logo-home: https://im.mackolik.com/img/logo/buyuk/133.gif
-# logo-away: https://im.mackolik.com/img/logo/buyuk/319.gif
+#EXTINF:-1 tvg-id="a0b594556e45ca7777eb6273a7eb456a" tvg-name="22:00 Al Najma - Al Nassr" tvg-logo="https://im.mackolik.com/img/logo/buyuk/34662.gif" group-title="Pro Lig",22:00 Al Najma - Al Nassr
+# logo-home: https://im.mackolik.com/img/logo/buyuk/34662.gif
+# logo-away: https://im.mackolik.com/img/logo/buyuk/2790.gif
 #EXTVLCOPT:http-referrer=https://www.atomsportv489.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/tabii1.m3u8
+https://klublsslubcgyiz7zqt5bz8il.medya.trt.com.tr/master_720p.m3u8
 
-#EXTINF:-1 tvg-id="282b1c850a8587afaafe7a28ebf7c8f8" tvg-name="23:00 Newcastle United - Karabağ" tvg-logo="https://im.mackolik.com/img/logo/buyuk/34.gif" group-title="Eleme Turu Play-off",23:00 Newcastle United - Karabağ
-# logo-home: https://im.mackolik.com/img/logo/buyuk/34.gif
-# logo-away: https://im.mackolik.com/img/logo/buyuk/1488.gif
+#EXTINF:-1 tvg-id="5490606b6de1eda5035d2983d11cd95e" tvg-name="23:00 Juventus - Galatasaray" tvg-logo="https://im.mackolik.com/img/logo/buyuk/157.gif" group-title="Eleme Turu Play-off",23:00 Juventus - Galatasaray
+# logo-home: https://im.mackolik.com/img/logo/buyuk/157.gif
+# logo-away: https://im.mackolik.com/img/logo/buyuk/1.gif
 #EXTVLCOPT:http-referrer=https://www.atomsportv489.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/tabii2.m3u8
+https://tv-trt1.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:-1 tvg-id="c9cd4b2f3dc37e591daecb048295c1b1" tvg-name="23:00 Inter - Bodo/Glimt" tvg-logo="https://im.mackolik.com/img/logo/buyuk/155.gif" group-title="Eleme Turu Play-off",23:00 Inter - Bodo/Glimt
-# logo-home: https://im.mackolik.com/img/logo/buyuk/155.gif
-# logo-away: https://im.mackolik.com/img/logo/buyuk/414.gif
+#EXTINF:-1 tvg-id="d9bb04d39bb5af48615a9f4d7357ead4" tvg-name="23:00 Real Madrid - Benfica" tvg-logo="https://im.mackolik.com/img/logo/buyuk/79.gif" group-title="Eleme Turu Play-off",23:00 Real Madrid - Benfica
+# logo-home: https://im.mackolik.com/img/logo/buyuk/79.gif
+# logo-away: https://im.mackolik.com/img/logo/buyuk/270.gif
 #EXTVLCOPT:http-referrer=https://www.atomsportv489.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/tabii.m3u8
+https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master_720p.m3u8
+
+#EXTINF:-1 tvg-id="977e287420088e8b00970c584bc3f1b9" tvg-name="23:00 PSG - Monaco" tvg-logo="https://im.mackolik.com/img/logo/buyuk/195.gif" group-title="Eleme Turu Play-off",23:00 PSG - Monaco
+# logo-home: https://im.mackolik.com/img/logo/buyuk/195.gif
+# logo-away: https://im.mackolik.com/img/logo/buyuk/196.gif
+#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iaqzu4szhtzeqd0edpsayinle.medya.trt.com.tr/master_720p.m3u8
+
+#EXTINF:-1 tvg-id="c695ca782836b64fb1e25ac1e1334b32" tvg-name="20:45 Fenerbahçe Beko - Partizan" tvg-logo="https://im.mackolik.com/img/basketlogo/buyuk/25.gif" group-title="Normal Sezon",20:45 Fenerbahçe Beko - Partizan
+# logo-home: https://im.mackolik.com/img/basketlogo/buyuk/25.gif
+# logo-away: https://im.mackolik.com/img/basketlogo/buyuk/75.gif
+#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/s-sport.m3u8
+
+#EXTINF:-1 tvg-id="e9b9d652e83ed43f179a92c952fd37c9" tvg-name="22:30 Kızılyıldız - Anadolu Efes" tvg-logo="https://im.mackolik.com/img/basketlogo/buyuk/120.gif" group-title="Normal Sezon",22:30 Kızılyıldız - Anadolu Efes
+# logo-home: https://im.mackolik.com/img/basketlogo/buyuk/120.gif
+# logo-away: https://im.mackolik.com/img/basketlogo/buyuk/44.gif
+#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/s-sport-2.m3u8
 
 # ══════════════════════════════════
 #  TV KANALLARI
