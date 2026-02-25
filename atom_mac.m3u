@@ -4,33 +4,12 @@
 #  CANLI MAÇLAR
 # ══════════════════════════════════
 
-#EXTINF:-1 tvg-id="4f399ab68361b39af0d1508c87470436" tvg-name="18:00 Real Madrid U19 - Chelsea U19" tvg-logo="https://im.mackolik.com/img/logo/buyuk/18092.gif" group-title="Son 16 Turu",18:00 Real Madrid U19 - Chelsea U19
-# logo-home: https://im.mackolik.com/img/logo/buyuk/18092.gif
-# logo-away: https://im.mackolik.com/img/logo/buyuk/16221.gif
-#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
-
-#EXTINF:-1 tvg-id="e60015fffe770a369c8934e51b4599ba" tvg-name="20:45 Atalanta - Borussia Dortmund" tvg-logo="https://im.mackolik.com/img/logo/buyuk/171.gif" group-title="Eleme Turu Play-off",20:45 Atalanta - Borussia Dortmund
-# logo-home: https://im.mackolik.com/img/logo/buyuk/171.gif
-# logo-away: https://im.mackolik.com/img/logo/buyuk/120.gif
-#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/tabii.m3u8
-
 #EXTINF:-1 tvg-id="a0b594556e45ca7777eb6273a7eb456a" tvg-name="22:00 Al Najma - Al Nassr" tvg-logo="https://im.mackolik.com/img/logo/buyuk/34662.gif" group-title="Pro Lig",22:00 Al Najma - Al Nassr
 # logo-home: https://im.mackolik.com/img/logo/buyuk/34662.gif
 # logo-away: https://im.mackolik.com/img/logo/buyuk/2790.gif
 #EXTVLCOPT:http-referrer=https://www.atomsportv489.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://klublsslubcgyiz7zqt5bz8il.medya.trt.com.tr/master_720p.m3u8
-
-#EXTINF:-1 tvg-id="5490606b6de1eda5035d2983d11cd95e" tvg-name="23:00 Juventus - Galatasaray" tvg-logo="https://im.mackolik.com/img/logo/buyuk/157.gif" group-title="Maçlar",23:00 Juventus - Galatasaray
-# logo-home: https://im.mackolik.com/img/logo/buyuk/157.gif
-# logo-away: https://im.mackolik.com/img/logo/buyuk/1.gif
-#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/trt1.m3u8
 
 #EXTINF:-1 tvg-id="d9bb04d39bb5af48615a9f4d7357ead4" tvg-name="23:00 Real Madrid - Benfica" tvg-logo="https://im.mackolik.com/img/logo/buyuk/79.gif" group-title="Eleme Turu Play-off",23:00 Real Madrid - Benfica
 # logo-home: https://im.mackolik.com/img/logo/buyuk/79.gif
@@ -45,6 +24,13 @@ https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help
 #EXTVLCOPT:http-referrer=https://www.atomsportv489.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/tabii1.m3u8
+
+#EXTINF:-1 tvg-id="5490606b6de1eda5035d2983d11cd95e" tvg-name="23:00 Juventus - Galatasaray" tvg-logo="https://im.mackolik.com/img/logo/buyuk/157.gif" group-title="Eleme Turu Play-off",23:00 Juventus - Galatasaray
+# logo-home: https://im.mackolik.com/img/logo/buyuk/157.gif
+# logo-away: https://im.mackolik.com/img/logo/buyuk/1.gif
+#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/trt1.m3u8
 
 #EXTINF:-1 tvg-id="c695ca782836b64fb1e25ac1e1334b32" tvg-name="20:45 Fenerbahçe Beko - Partizan" tvg-logo="https://im.mackolik.com/img/basketlogo/buyuk/25.gif" group-title="Normal Sezon",20:45 Fenerbahçe Beko - Partizan
 # logo-home: https://im.mackolik.com/img/basketlogo/buyuk/25.gif
