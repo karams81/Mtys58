@@ -7,32 +7,27 @@ from bs4 import BeautifulSoup
 # SSL uyarılarını kapat
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# Ayarlar
-REDIRECT_SOURCE = "http://raw.githack.com/eniyiyayinci/redirect-cdn/main/index.html"
+# Ayarlar - Senin verdiğin yeni kaynak
+REDIRECT_SOURCE = "https://raw.githubusercontent.com/mehmetey03/goal/refs/heads/main/domain.txt"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
 }
 
 def get_active_domain():
-    """Yönlendirme sayfasından güncel inattv domainini çeker."""
+    """GitHub üzerindeki domain.txt dosyasından güncel adresi çeker."""
     try:
-        print("🔍 Aktif domain yönlendirme sayfasından alınıyor...")
+        print(f"🔍 Aktif domain {REDIRECT_SOURCE} adresinden alınıyor...")
         r = requests.get(REDIRECT_SOURCE, timeout=10)
-        # Gelişmiş temizleme: Önce HTML etiketlerini sil, sonra linki ara
-        clean_text = re.sub('<[^<]+?>', '', r.text).strip()
-        match = re.search(r'(https?://[^\s"<]+)', clean_text)
-        
-        if match:
-            domain = match.group(1).rstrip('/')
+        # Dosya içeriğindeki boşlukları temizle ve linki al
+        domain = r.text.strip().rstrip('/')
+        if domain.startswith("http"):
             print(f"✅ Aktif domain bulundu: {domain}")
             return domain
         else:
-            # Yedek plan: Ham metinde ara
-            match_raw = re.search(r'(https?://[^\s"<]+)', r.text)
-            if match_raw:
-                domain = match_raw.group(1).rstrip('/')
-                print(f"✅ Aktif domain (ham metin) bulundu: {domain}")
-                return domain
+            # Eğer dosya içinde sadece URL değil de metin varsa regex ile ayıkla
+            match = re.search(r'(https?://[^\s"<]+)', r.text)
+            if match:
+                return match.group(1).rstrip('/')
     except Exception as e:
         print(f"❌ Domain çekilirken hata: {e}")
     return None
@@ -57,7 +52,7 @@ def resolve_base_url(active_domain):
 def main():
     active_domain = get_active_domain()
     if not active_domain:
-        sys.exit("❌ Başlangıç domaini bulunamadı. Lütfen yönlendirme kaynağını kontrol edin.")
+        sys.exit("❌ Başlangıç domaini bulunamadı. GitHub linkini kontrol edin.")
 
     base_url = resolve_base_url(active_domain)
     if not base_url:
