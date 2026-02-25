@@ -64,8 +64,8 @@ def main():
     # GÜNCEL KANAL LİSTESİ
     fixed_channels = {
         "zirve": "beIN Sports 1 A",
-        "trgoals": "beIN Sports 1 B",
-        "yayin1": "beIN Sports 1 C",
+        "taraftarium": "beIN Sports 1 B",
+        "patron": "beIN Sports 1 C",
         "b2": "beIN Sports 2",
         "b3": "beIN Sports 3",
         "b4": "beIN Sports 4",
