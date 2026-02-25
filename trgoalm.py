@@ -18,7 +18,8 @@ def get_active_domain():
     try:
         print("🔍 Aktif domain yönlendirme sayfasından alınıyor...")
         r = requests.get(REDIRECT_SOURCE, timeout=10)
-        match = re.search(r'URL=(https?://[^">]+)', r.text)
+        # Yeni yapıda URL doğrudan text içinde gelebildiği için kontrolü genişlettik
+        match = re.search(r'(https?://[^\s"<]+)', r.text)
         if match:
             domain = match.group(1).rstrip('/')
             print(f"✅ Aktif domain bulundu: {domain}")
@@ -29,7 +30,7 @@ def get_active_domain():
 
 def resolve_base_url(active_domain):
     """Yayın sunucusunun base adresini bulur."""
-    target = f"{active_domain}/channel.html?id=yayininat"
+    target = f"{active_domain}/channel.html?id=taraftarium"
     try:
         r = requests.get(target, headers={**HEADERS, "Referer": active_domain + "/"}, timeout=10, verify=False)
         # Yeni yapıdaki URL patternini ara
@@ -50,12 +51,12 @@ def main():
 
     base_url = resolve_base_url(active_domain)
     if not base_url:
-        base_url = "https://mm9.d72577a9dd0ec19.sbs/" 
+        base_url = "https://8pi.d72577a9dd0ec30.sbs/" 
         print(f"⚠️ Sunucu otomatik bulunamadı, fallback kullanılıyor: {base_url}")
     else:
         print(f"✅ Yayın sunucusu tespit edildi: {base_url}")
 
-    # GÜNCEL KANAL LİSTESİ (Girintiler düzeltildi)
+    # GÜNCEL KANAL LİSTESİ
     fixed_channels = {
         "zirve": "beIN Sports 1 A",
         "trgoals": "beIN Sports 1 B",
