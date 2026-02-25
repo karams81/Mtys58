@@ -18,12 +18,21 @@ def get_active_domain():
     try:
         print("🔍 Aktif domain yönlendirme sayfasından alınıyor...")
         r = requests.get(REDIRECT_SOURCE, timeout=10)
-        # Düzenleme: Sayfa içeriğindeki ilk temiz http/https linkini bulur
-        match = re.search(r'(https?://[^\s"<]+)', r.text)
+        # Gelişmiş temizleme: Önce HTML etiketlerini sil, sonra linki ara
+        clean_text = re.sub('<[^<]+?>', '', r.text).strip()
+        match = re.search(r'(https?://[^\s"<]+)', clean_text)
+        
         if match:
             domain = match.group(1).rstrip('/')
             print(f"✅ Aktif domain bulundu: {domain}")
             return domain
+        else:
+            # Yedek plan: Ham metinde ara
+            match_raw = re.search(r'(https?://[^\s"<]+)', r.text)
+            if match_raw:
+                domain = match_raw.group(1).rstrip('/')
+                print(f"✅ Aktif domain (ham metin) bulundu: {domain}")
+                return domain
     except Exception as e:
         print(f"❌ Domain çekilirken hata: {e}")
     return None
@@ -32,7 +41,6 @@ def resolve_base_url(active_domain):
     """Yayın sunucusunun base adresini bulur."""
     target = f"{active_domain}/channel.html?id=taraftarium"
     try:
-        # verify=False ekledik çünkü SSL sertifikası hatalı olabilir
         r = requests.get(target, headers={**HEADERS, "Referer": active_domain + "/"}, timeout=15, verify=False)
         
         # M3U8 patternini ara
@@ -49,7 +57,7 @@ def resolve_base_url(active_domain):
 def main():
     active_domain = get_active_domain()
     if not active_domain:
-        sys.exit("❌ Başlangıç domaini bulunamadı.")
+        sys.exit("❌ Başlangıç domaini bulunamadı. Lütfen yönlendirme kaynağını kontrol edin.")
 
     base_url = resolve_base_url(active_domain)
     if not base_url:
