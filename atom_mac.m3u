@@ -18,13 +18,6 @@ https://klublsslubcgyiz7zqt5bz8il.medya.trt.com.tr/master_720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/tabii.m3u8
 
-#EXTINF:-1 tvg-id="977e287420088e8b00970c584bc3f1b9" tvg-name="23:00 PSG - Monaco" tvg-logo="https://im.mackolik.com/img/logo/buyuk/195.gif" group-title="Eleme Turu Play-off",23:00 PSG - Monaco
-# logo-home: https://im.mackolik.com/img/logo/buyuk/195.gif
-# logo-away: https://im.mackolik.com/img/logo/buyuk/196.gif
-#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/tabii1.m3u8
-
 #EXTINF:-1 tvg-id="5490606b6de1eda5035d2983d11cd95e" tvg-name="23:00 Juventus - Galatasaray" tvg-logo="https://im.mackolik.com/img/logo/buyuk/157.gif" group-title="Eleme Turu Play-off",23:00 Juventus - Galatasaray
 # logo-home: https://im.mackolik.com/img/logo/buyuk/157.gif
 # logo-away: https://im.mackolik.com/img/logo/buyuk/1.gif
@@ -49,6 +42,11 @@ https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help
 # ══════════════════════════════════
 #  TV KANALLARI
 # ══════════════════════════════════
+
+#EXTINF:-1 tvg-id="bein-sports-1" tvg-name="BEIN SPORTS 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png" group-title="TV Kanalları",BEIN SPORTS 1
+#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/bein-sports-11.m3u8
 
 #EXTINF:-1 tvg-id="bein-sports-2" tvg-name="BEIN SPORTS 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/BeIN_Sports_2_HD.svg/200px-BeIN_Sports_2_HD.svg.png" group-title="TV Kanalları",BEIN SPORTS 2
 #EXTVLCOPT:http-referrer=https://www.atomsportv489.top
@@ -89,9 +87,4 @@ https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help
 #EXTVLCOPT:http-referrer=https://www.atomsportv489.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/tivibu-spor-3.m3u8
-
-#EXTINF:-1 tvg-id="trt-spor" tvg-name="TRT SPOR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/TRT_Spor_logo.svg/200px-TRT_Spor_logo.svg.png" group-title="TV Kanalları",TRT SPOR
-#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/trt-spor.m3u8
 
