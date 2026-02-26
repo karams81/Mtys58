@@ -71,13 +71,13 @@ https://trkvz-radyolar.ercdn.net/ahaberradyo/playlist.m3u8
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://live.radyofenomen.com/fenomen/128/icecast.audio
 
-#EXTINF:-1 tvg-id="Türkiye_17" tvg-name="dinamo.fm sleep" tvg-logo="https://www.dinamo.fm/favicons/dinamo-sleep-favicon.jpg" group-title="Türkiye",dinamo.fm sleep
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://channels.dinamo.fm/sleep-mp3
-
-#EXTINF:-1 tvg-id="Türkiye_18" tvg-name="Radyo Vatan Türkü" tvg-logo="" group-title="Türkiye",Radyo Vatan Türkü
+#EXTINF:-1 tvg-id="Türkiye_17" tvg-name="Radyo Vatan Türkü" tvg-logo="" group-title="Türkiye",Radyo Vatan Türkü
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://95.0.173.195:9000/turku
+
+#EXTINF:-1 tvg-id="Türkiye_18" tvg-name="dinamo.fm sleep" tvg-logo="https://www.dinamo.fm/favicons/dinamo-sleep-favicon.jpg" group-title="Türkiye",dinamo.fm sleep
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://channels.dinamo.fm/sleep-mp3
 
 #EXTINF:-1 tvg-id="Türkiye_19" tvg-name="Süper FM" tvg-logo="" group-title="Türkiye",Süper FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1223,13 +1223,13 @@ http://avw.mdr.de/streams/284350-0_mp3_high.m3u
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream.0nlineradio.com/soft-rock?ref=radiobrowser
 
-#EXTINF:-1 tvg-id="Germany_46" tvg-name="i love radio - hip hop turnup" tvg-logo="https://www.iloveradio.de/favicon.ico" group-title="Germany",i love radio - hip hop turnup
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://stream02.iloveradio.de/iloveradio13.mp3?hadpreroll
-
-#EXTINF:-1 tvg-id="Germany_47" tvg-name="- 0 N - 90s on Radio" tvg-logo="https://www.0nradio.com/logos/0n-90s_600x600.jpg" group-title="Germany",- 0 N - 90s on Radio
+#EXTINF:-1 tvg-id="Germany_46" tvg-name="- 0 N - 90s on Radio" tvg-logo="https://www.0nradio.com/logos/0n-90s_600x600.jpg" group-title="Germany",- 0 N - 90s on Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://0n-90s.radionetz.de/0n-90s.mp3
+
+#EXTINF:-1 tvg-id="Germany_47" tvg-name="i love radio - hip hop turnup" tvg-logo="https://www.iloveradio.de/favicon.ico" group-title="Germany",i love radio - hip hop turnup
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://stream02.iloveradio.de/iloveradio13.mp3?hadpreroll
 
 #EXTINF:-1 tvg-id="Germany_48" tvg-name="Technolovers DEEP HOUSE" tvg-logo="" group-title="Germany",Technolovers DEEP HOUSE
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1291,13 +1291,13 @@ http://streams.fluxfm.de/live/mp3-320/audio/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://www.ndr.de/resources/metadaten/audio_ssl/m3u/ndr2.m3u
 
-#EXTINF:-1 tvg-id="Germany_63" tvg-name="RADIO BOB! Classic Rock" tvg-logo="" group-title="Germany",RADIO BOB! Classic Rock
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://streams.radiobob.de/bob-classicrock/mp3-192/streams.radiobob.de/
-
-#EXTINF:-1 tvg-id="Germany_64" tvg-name="80s80s Radio" tvg-logo="https://upload.80s80s.de/production/static/1697296555757/icons/icon_512.ewwAEi8A30w.png" group-title="Germany",80s80s Radio
+#EXTINF:-1 tvg-id="Germany_63" tvg-name="80s80s Radio" tvg-logo="https://upload.80s80s.de/production/static/1697296555757/icons/icon_512.ewwAEi8A30w.png" group-title="Germany",80s80s Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://streams.80s80s.de/web/mp3-192/play.m3u
+
+#EXTINF:-1 tvg-id="Germany_64" tvg-name="RADIO BOB! Classic Rock" tvg-logo="" group-title="Germany",RADIO BOB! Classic Rock
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://streams.radiobob.de/bob-classicrock/mp3-192/streams.radiobob.de/
 
 #EXTINF:-1 tvg-id="Germany_65" tvg-name="Acid Jazz Radio" tvg-logo="" group-title="Germany",Acid Jazz Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3093,13 +3093,13 @@ http://nashe1.hostingradio.ru/rock-128.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://icecast-radiovanya.cdnvideo.ru/radiovanya
 
-#EXTINF:-1 tvg-id="The Russian Federation_3" tvg-name="Ретро FM" tvg-logo="" group-title="The Russian Federation",Ретро FM
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://retroserver.streamr.ru:8043/retro256.mp3
-
-#EXTINF:-1 tvg-id="The Russian Federation_4" tvg-name="DFM Дискач 90-х" tvg-logo="" group-title="The Russian Federation",DFM Дискач 90-х
+#EXTINF:-1 tvg-id="The Russian Federation_3" tvg-name="DFM Дискач 90-х" tvg-logo="" group-title="The Russian Federation",DFM Дискач 90-х
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://dfm-disc90.hostingradio.ru/disc9096.aacp
+
+#EXTINF:-1 tvg-id="The Russian Federation_4" tvg-name="Ретро FM" tvg-logo="" group-title="The Russian Federation",Ретро FM
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://retroserver.streamr.ru:8043/retro256.mp3
 
 #EXTINF:-1 tvg-id="The Russian Federation_5" tvg-name="Дискотека СССР" tvg-logo="" group-title="The Russian Federation",Дискотека СССР
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3737,13 +3737,13 @@ https://funkyradio.streamingmedia.it/play.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://playerservices.streamtheworld.com/pls/977_OLDIES.m3u
 
-#EXTINF:-1 tvg-id="The United States Of America_46" tvg-name="Radio Paradise Rock Mix 320k AAC" tvg-logo="https://radioparadise.com/apple-touch-icon.png" group-title="The United States Of America",Radio Paradise Rock Mix 320k AAC
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://stream.radioparadise.com/rock-320
-
-#EXTINF:-1 tvg-id="The United States Of America_47" tvg-name="Miami Beach Radio" tvg-logo="https://cdn-elements.radiostreamlive.com/v1/images/favicon.ico" group-title="The United States Of America",Miami Beach Radio
+#EXTINF:-1 tvg-id="The United States Of America_46" tvg-name="Miami Beach Radio" tvg-logo="https://cdn-elements.radiostreamlive.com/v1/images/favicon.ico" group-title="The United States Of America",Miami Beach Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://streaming.radiostreamlive.com/miamibeachradio_devices
+
+#EXTINF:-1 tvg-id="The United States Of America_47" tvg-name="Radio Paradise Rock Mix 320k AAC" tvg-logo="https://radioparadise.com/apple-touch-icon.png" group-title="The United States Of America",Radio Paradise Rock Mix 320k AAC
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://stream.radioparadise.com/rock-320
 
 #EXTINF:-1 tvg-id="The United States Of America_48" tvg-name="Radio Marti" tvg-logo="https://www.radiotelevisionmarti.com/content/responsive/ocb/img/webapp/ico-128x128.png" group-title="The United States Of America",Radio Marti
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3963,13 +3963,13 @@ http://streaming.knoozfm.net:8000/knoozfm
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://rtstream.tanitweb.com/sfax
 
-#EXTINF:-1 tvg-id="Tunisia_6" tvg-name="Radio Tunisie Jeunes" tvg-logo="" group-title="Tunisia",Radio Tunisie Jeunes
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://rtstream.tanitweb.com/jeunes
-
-#EXTINF:-1 tvg-id="Tunisia_7" tvg-name="Diwan FM" tvg-logo="" group-title="Tunisia",Diwan FM
+#EXTINF:-1 tvg-id="Tunisia_6" tvg-name="Diwan FM" tvg-logo="" group-title="Tunisia",Diwan FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://streaming.diwanfm.net/stream
+
+#EXTINF:-1 tvg-id="Tunisia_7" tvg-name="Radio Tunisie Jeunes" tvg-logo="" group-title="Tunisia",Radio Tunisie Jeunes
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://rtstream.tanitweb.com/jeunes
 
 #EXTINF:-1 tvg-id="Tunisia_8" tvg-name="Mosaique FM Tarab" tvg-logo="" group-title="Tunisia",Mosaique FM Tarab
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
