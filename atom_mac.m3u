@@ -53,6 +53,13 @@ https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/tabii1.m3u8
 
+#EXTINF:-1 tvg-id="8a31abd71b30c303938e1dafa71fceb2" tvg-name="23:00 Genk - Dinamo Zagreb" tvg-logo="https://im.mackolik.com/img/logo/buyuk/256.gif" group-title="Eleme Turu Play-off",23:00 Genk - Dinamo Zagreb
+# logo-home: https://im.mackolik.com/img/logo/buyuk/256.gif
+# logo-away: https://im.mackolik.com/img/logo/buyuk/524.gif
+#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/tabii2.m3u8
+
 #EXTINF:-1 tvg-id="1aa89ce6ba7b3f04e2c2a7d73525055c" tvg-name="23:00 Nottingham Forest - Fenerbahçe" tvg-logo="https://im.mackolik.com/img/logo/buyuk/52.gif" group-title="Eleme Turu Play-off",23:00 Nottingham Forest - Fenerbahçe
 # logo-home: https://im.mackolik.com/img/logo/buyuk/52.gif
 # logo-away: https://im.mackolik.com/img/logo/buyuk/2.gif
