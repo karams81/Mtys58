@@ -32,7 +32,7 @@ https://8pi.d72577a9dd0ec30.sbs/trtspor/mono.m3u8
 #EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/macaristan.png" group-title="CANLI MAÇLAR - Dünya Kupası Elemeleri",Macaristan - Fransa [20:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/trtspor/mono.m3u8
+https://8pi.d72577a9dd0ec30.sbs/trtspor2/mono.m3u8
 # İki logo: https://patronsports2.cfd/img/logos/macaristan.png | https://patronsports2.cfd/img/logos/fransa.png
 #EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/f-dusseldorf.png" group-title="CANLI MAÇLAR - Almanya 2. Bundesliga",F. Düsseldorf - Bochum [20:30]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
