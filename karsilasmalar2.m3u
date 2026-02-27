@@ -1,144 +1,84 @@
 #EXTM3U
-#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Not.Forest - Fenerbahçe
+#EXTINF:-1 group-title="Canlı Maçlar",20:00 | Trabzonspor - Karagümrük
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/trt1/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Sadece Türkiye'den izlenebilir. | Not.Forest - Fenerbahçe
+https://8pi.d72577a9dd0ec30.sbs/taraftarium/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",20:00 | Başakşehir - Konyaspor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/https://tv-trt1.medya.trt.com.tr/master.m3u8/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",20:45 | Samsunspor - Shkendija
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/trt1/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",20:45 | Sadece Türkiye'den izlenebilir. | Samsunspor - Shkendija
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/https://tv-trt1.medya.trt.com.tr/master.m3u8/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",20:00 | BC Dubai - Asvel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/ss/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",20:45 | Fiorentina - Jagiellonia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/ex4/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",20:45 | Sadece Türkiye'den izlenebilir. | Fiorentina - Jagiellonia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/https://bfxy3jgeydpbphtk8qfqwm3hr.medya.trt.com.tr/master.m3u8/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",20:45 | Celje - Drita
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/https://z3mmimwz148csv0vaxtphqspf.medya.trt.com.tr/master.m3u8/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",20:45 | Sadece Türkiye'den izlenebilir. | Celje - Drita
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/ex5/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",20:45 | Kızılyıldız - Lille
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/ex7/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",20:45 | Sadece Türkiye'den izlenebilir. | Kızılyıldız - Lille
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master.m3u8/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",20:45 | V.Plzen - Panathinaikos
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/ex3/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",20:45 | Sadece Türkiye'den izlenebilir. | V.Plzen - Panathinaikos
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/https://ujnf69op16x2fiiywxcnx41q8.medya.trt.com.tr/master.m3u8/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",20:45 | Ferencvaros - Ludogorets
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/ex2/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",20:45 | Sadece Türkiye'den izlenebilir. | Ferencvaros - Ludogorets
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/https://klublsslubcgyiz7zqt5bz8il.medya.trt.com.tr/master.m3u8/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",20:45 | Stuttgart - Celtic
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/ex1/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",20:45 | Sadece Türkiye'den izlenebilir. | Stuttgart - Celtic
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/https://iaqzu4szhtzeqd0edpsayinle.medya.trt.com.tr/master.m3u8/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",22:00 | Riyadh - Al Ahli Jeddah
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/ex6/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",22:00 | Sadece Türkiye'den izlenebilir. | Riyadh - Al Ahli Jeddah
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master.m3u8/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",22:00 | BLMA (K) - ÇBK Mersin (K)
+https://8pi.d72577a9dd0ec30.sbs/b2/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",16:00 | Erokspor - Boluspor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
 https://8pi.d72577a9dd0ec30.sbs/trtspor/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",22:45 | Panathinaikos - Partizan
+#EXTINF:-1 group-title="Canlı Maçlar",16:00 | Ukrayna - İspanya
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
 https://8pi.d72577a9dd0ec30.sbs/ss/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",22:45 | Real Madrid - B.Münih
+#EXTINF:-1 group-title="Canlı Maçlar",20:00 | İstanbulspor - Iğdır FK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/ss2/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Crystal Palace - Zrinjski
+https://8pi.d72577a9dd0ec30.sbs/trtspor/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",20:00 | Macaristan - Fransa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/ex4/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Sadece Türkiye'den izlenebilir. | Crystal Palace - Zrinjski
+https://8pi.d72577a9dd0ec30.sbs/trtspor/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",20:30 | F. Düsseldorf - Bochum
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/https://bfxy3jgeydpbphtk8qfqwm3hr.medya.trt.com.tr/master.m3u8/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Lausanne - Sigma
+https://8pi.d72577a9dd0ec30.sbs/t3/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",20:30 | D.Dresden - Darmstadt
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/ex5/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Sadece Türkiye'den izlenebilir. | Lausanne - Sigma
+https://8pi.d72577a9dd0ec30.sbs/t2/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",21:00 | Sırbistan - Türkiye
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/https://z3mmimwz148csv0vaxtphqspf.medya.trt.com.tr/master.m3u8/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",23:00 | AZ Alkmaar - Noah
+https://8pi.d72577a9dd0ec30.sbs/trt1/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",21:45 | Porto - Arouca
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/ex3/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Sadece Türkiye'den izlenebilir. | AZ Alkmaar - Noah
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/https://ujnf69op16x2fiiywxcnx41q8.medya.trt.com.tr/master.m3u8/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Celta Vigo - PAOK
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/ex7/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Sadece Türkiye'den izlenebilir. | Celta Vigo - PAOK
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master.m3u8/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Bologna - Brann
+https://8pi.d72577a9dd0ec30.sbs/t4/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",22:00 | Al Shabab - Al Hilal Riyadh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
 https://8pi.d72577a9dd0ec30.sbs/ex1/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Sadece Türkiye'den izlenebilir. | Bologna - Brann
+#EXTINF:-1 group-title="Canlı Maçlar",22:00 | Hırvatistan - Almanya
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/https://iaqzu4szhtzeqd0edpsayinle.medya.trt.com.tr/master.m3u8/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Genk - Dinamo Zagreb
+https://8pi.d72577a9dd0ec30.sbs/trtspor/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",22:30 | Augsburg - Köln
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/ex2/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Sadece Türkiye'den izlenebilir. | Genk - Dinamo Zagreb
+https://8pi.d72577a9dd0ec30.sbs/t1/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",22:30 | Belçika - Finlandiya
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/https://klublsslubcgyiz7zqt5bz8il.medya.trt.com.tr/master.m3u8/mono.m3u8
-#EXTINF:-1 group-title="Canlı Maçlar",23:15 | Racing Club - I. Rivadavia
+https://8pi.d72577a9dd0ec30.sbs/ex1/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",22:45 | Parma - Cagliari
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
-https://8pi.d72577a9dd0ec30.sbs/smarts/mono.m3u8
+https://8pi.d72577a9dd0ec30.sbs/t2/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",22:45 | Strasbourg - Lens
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
+https://8pi.d72577a9dd0ec30.sbs/b4/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Wolves - Aston Villa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
+https://8pi.d72577a9dd0ec30.sbs/b3/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Bristol City - Watford
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
+https://8pi.d72577a9dd0ec30.sbs/ex7/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",23:00 | Levante - Alaves
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
+https://8pi.d72577a9dd0ec30.sbs/ex1/mono.m3u8
+#EXTINF:-1 group-title="Canlı Maçlar",23:45 | Sporting CP - Estoril
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
+https://8pi.d72577a9dd0ec30.sbs/t3/mono.m3u8
 #EXTINF:-1 group-title="7/24 Kanallar",beIN Sports 1 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1006.xyz/
