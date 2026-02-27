@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="rams-basaksehir---konyaspor20-00" group-title="Spor",Rams Başakşehir - Konyaspor20:00
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukbeinsports2/playlist.m3u8
 #EXTINF:-1 tvg-id="trabzonspor---fatih-karagumruk20-00" group-title="Spor",Trabzonspor - Fatih Karagümrük20:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -27,14 +31,14 @@ https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktabiispor1/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktivibuspor1/playlist.m3u8
-#EXTINF:-1 tvg-id="parma---cagliari22-45" group-title="Spor",Parma - Cagliari22:45
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktivibuspor2/playlist.m3u8
 #EXTINF:-1 tvg-id="strasbourg---lens22-45" group-title="Spor",Strasbourg - Lens22:45
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukbeinsports4/playlist.m3u8
+#EXTINF:-1 tvg-id="parma---cagliari22-45" group-title="Spor",Parma - Cagliari22:45
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktivibuspor2/playlist.m3u8
 #EXTINF:-1 tvg-id="levante---alaves23-00" group-title="Spor",Levante - Alaves23:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -59,6 +63,10 @@ https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukbeinsportsmax2/playlist.
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukbeinsportsmax1/playlist.m3u8
+#EXTINF:-1 tvg-id="rams-basaksehir---konyaspor20-00" group-title="Spor",Rams Başakşehir - Konyaspor20:00
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukbeinsports2/playlist.m3u8
 #EXTINF:-1 tvg-id="trabzonspor---fatih-karagumruk20-00" group-title="Spor",Trabzonspor - Fatih Karagümrük20:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -87,14 +95,14 @@ https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktabiispor1/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktivibuspor1/playlist.m3u8
-#EXTINF:-1 tvg-id="parma---cagliari22-45" group-title="Spor",Parma - Cagliari22:45
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktivibuspor2/playlist.m3u8
 #EXTINF:-1 tvg-id="strasbourg---lens22-45" group-title="Spor",Strasbourg - Lens22:45
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcukbeinsports4/playlist.m3u8
+#EXTINF:-1 tvg-id="parma---cagliari22-45" group-title="Spor",Parma - Cagliari22:45
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.56af57aaf8609e.click/live/selcuktivibuspor2/playlist.m3u8
 #EXTINF:-1 tvg-id="levante---alaves23-00" group-title="Spor",Levante - Alaves23:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
