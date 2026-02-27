@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="50634" tvg-name="BalacaN TV" tvg-logo="https://catcast.tv/assets/no-logo.svg" group-title="Sayfa 1",BalacaN TV
+#EXTINF:-1 tvg-id="50634" tvg-name="BalacaN TV" tvg-logo="https://img.catcast.tv/uploads/26022026/logos/50634-69a078362e485.png" group-title="Sayfa 1",BalacaN TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:http-referer=https://catcast.tv/
 https://example.com/?id=balacan-tv-diginet.m3u8
