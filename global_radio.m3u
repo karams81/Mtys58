@@ -505,10 +505,6 @@ https://us9.maindigitalstream.com/ssl/radiosol
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://sonando.us.digitalproserver.com/fmdelosrecuerdos.aac
 
-#EXTINF:-1 tvg-id="Chile_3" tvg-name="Imagina" tvg-logo="" group-title="Chile",Imagina
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://provisioning.streamtheworld.com/pls/imagina.m3u
-
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="China",China
 #EXTGRP:China
 
@@ -543,6 +539,10 @@ http://playtv-live.ifeng.com/live/06OLEGEGM4G_audio.m3u8
 #EXTINF:-1 tvg-id="China_7" tvg-name="国际新闻" tvg-logo="https://pic.qtfm.cn/sso/48/1678171152584_a6BwhQSVz.png" group-title="China",国际新闻
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://lhttp.qtfm.cn/live/20500172/64k.mp3
+
+#EXTINF:-1 tvg-id="China_8" tvg-name="清晨音乐台" tvg-logo="https://h5.sinaimg.cn/m/weibo-lite/appicon.png" group-title="China",清晨音乐台
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://lhttp.qingting.fm/live/4915/64k.mp3
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Colombia",Colombia
 #EXTGRP:Colombia
@@ -763,13 +763,13 @@ http://n0c.radiojar.com/8s5u5tpdtwzuv?rj-ttl=5&amp;rj-tok=AAABdI5Qnd0AEmvTTG5DVt
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream-36.zeno.fm/rf64mx02qa0uv?zs=omRb6KEjQ3u0-JsaJKdhQg
 
-#EXTINF:-1 tvg-id="Egypt_15" tvg-name="Diab FM" tvg-logo="" group-title="Egypt",Diab FM
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://stream-34.zeno.fm/rf64mx02qa0uv?zs=-xjlLLwRS8uKrffFxK4vLA
-
-#EXTINF:-1 tvg-id="Egypt_16" tvg-name="Radio Quran" tvg-logo="https://i.pinimg.com/564x/5e/92/4d/5e924dbe9f53f8611cb9d15828205ff9.jpg" group-title="Egypt",Radio Quran
+#EXTINF:-1 tvg-id="Egypt_15" tvg-name="Radio Quran" tvg-logo="https://i.pinimg.com/564x/5e/92/4d/5e924dbe9f53f8611cb9d15828205ff9.jpg" group-title="Egypt",Radio Quran
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream.radiojar.com/8s5u5tpdtwzuv
+
+#EXTINF:-1 tvg-id="Egypt_16" tvg-name="Diab FM" tvg-logo="" group-title="Egypt",Diab FM
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://stream-34.zeno.fm/rf64mx02qa0uv?zs=-xjlLLwRS8uKrffFxK4vLA
 
 #EXTINF:-1 tvg-id="Egypt_17" tvg-name="القران الكريم من القاهره1" tvg-logo="" group-title="Egypt",القران الكريم من القاهره1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1243,13 +1243,13 @@ https://0n-smoothjazz.radionetz.de/0n-smoothjazz.aac
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://wdr-wdr4-live.icecast.wdr.de/wdr/wdr4/live/mp3/128/stream.mp3
 
-#EXTINF:-1 tvg-id="Germany_51" tvg-name="NDR Info (Hamburg)" tvg-logo="https://www.ndr.de/apple-touch-icon-120x120.png" group-title="Germany",NDR Info (Hamburg)
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://www.ndr.de/resources/metadaten/audio/m3u/ndrinfo_hh.m3u
-
-#EXTINF:-1 tvg-id="Germany_52" tvg-name="RADIO BOB! BOBs Metal" tvg-logo="" group-title="Germany",RADIO BOB! BOBs Metal
+#EXTINF:-1 tvg-id="Germany_51" tvg-name="RADIO BOB! BOBs Metal" tvg-logo="" group-title="Germany",RADIO BOB! BOBs Metal
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://streams.radiobob.de/bob-metal/mp3-192/streams.radiobob.de/
+
+#EXTINF:-1 tvg-id="Germany_52" tvg-name="NDR Info (Hamburg)" tvg-logo="https://www.ndr.de/apple-touch-icon-120x120.png" group-title="Germany",NDR Info (Hamburg)
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://www.ndr.de/resources/metadaten/audio/m3u/ndrinfo_hh.m3u
 
 #EXTINF:-1 tvg-id="Germany_53" tvg-name="NDR Info (Schleswig-Holstein)" tvg-logo="http://www.ndr.de/favicon.ico" group-title="Germany",NDR Info (Schleswig-Holstein)
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1271,13 +1271,13 @@ http://mp3channels.webradio.antenne.de/top-40
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream.kissfm.de/kissfm/mp3-128/internetradio/
 
-#EXTINF:-1 tvg-id="Germany_58" tvg-name="80s80s Love" tvg-logo="" group-title="Germany",80s80s Love
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://streams.80s80s.de/love/mp3-192/streams.80s80s.de/
-
-#EXTINF:-1 tvg-id="Germany_59" tvg-name="- 0 N - Chillout on Radio" tvg-logo="https://www.0nradio.com/logos/0n-chillout_600x600.jpg" group-title="Germany",- 0 N - Chillout on Radio
+#EXTINF:-1 tvg-id="Germany_58" tvg-name="- 0 N - Chillout on Radio" tvg-logo="https://www.0nradio.com/logos/0n-chillout_600x600.jpg" group-title="Germany",- 0 N - Chillout on Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://0n-chillout.radionetz.de/0n-chillout.aac
+
+#EXTINF:-1 tvg-id="Germany_59" tvg-name="80s80s Love" tvg-logo="" group-title="Germany",80s80s Love
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://streams.80s80s.de/love/mp3-192/streams.80s80s.de/
 
 #EXTINF:-1 tvg-id="Germany_60" tvg-name="Radio Paloma" tvg-logo="https://schlager.radio/wp-content/uploads/2020/11/cropped-radio-paloma-fav-180x180.png" group-title="Germany",Radio Paloma
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1548,13 +1548,13 @@ http://dard.out.airtime.pro:8000/dard_a
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio00564kbps.m3u8
 
-#EXTINF:-1 tvg-id="India_16" tvg-name="Mirchi Top 20" tvg-logo="http://mirchi.in/favicon-196x196.png" group-title="India",Mirchi Top 20
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://drive.uber.radio/uber/bollywoodnow/icecast.audio
-
-#EXTINF:-1 tvg-id="India_17" tvg-name="Radio Mirchi Hindi" tvg-logo="https://onlineradiohub.com/wp-content/uploads/2023/05/radio-mirchi-hindi-fm.jpg" group-title="India",Radio Mirchi Hindi
+#EXTINF:-1 tvg-id="India_16" tvg-name="Radio Mirchi Hindi" tvg-logo="https://onlineradiohub.com/wp-content/uploads/2023/05/radio-mirchi-hindi-fm.jpg" group-title="India",Radio Mirchi Hindi
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://eu8.fastcast4u.com/proxy/clyedupq/stream
+
+#EXTINF:-1 tvg-id="India_17" tvg-name="Mirchi Top 20" tvg-logo="http://mirchi.in/favicon-196x196.png" group-title="India",Mirchi Top 20
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://drive.uber.radio/uber/bollywoodnow/icecast.audio
 
 #EXTINF:-1 tvg-id="India_18" tvg-name="Hits Of Kishor Kumar" tvg-logo="" group-title="India",Hits Of Kishor Kumar
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1600,13 +1600,13 @@ http://stream.zeno.fm/2k6xfu1pvs8uv
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://drive.uber.radio/uber/bollywood2010s/icecast.audio
 
-#EXTINF:-1 tvg-id="India_29" tvg-name="Fm Rainbow Delhi" tvg-logo="https://liveradios.in/wp-content/uploads/output-onlinepngtools-1-150x150.png" group-title="India",Fm Rainbow Delhi
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio004/hlspbaudio00464kbps.m3u8
-
-#EXTINF:-1 tvg-id="India_30" tvg-name="Hindi Gold Radio" tvg-logo="https://onlineradiohub.com/wp-content/uploads/2023/07/hindi-gold-radio.jpg" group-title="India",Hindi Gold Radio
+#EXTINF:-1 tvg-id="India_29" tvg-name="Hindi Gold Radio" tvg-logo="https://onlineradiohub.com/wp-content/uploads/2023/07/hindi-gold-radio.jpg" group-title="India",Hindi Gold Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://azuracast.vibesounds.in:8010/radio.mp3
+
+#EXTINF:-1 tvg-id="India_30" tvg-name="Fm Rainbow Delhi" tvg-logo="https://liveradios.in/wp-content/uploads/output-onlinepngtools-1-150x150.png" group-title="India",Fm Rainbow Delhi
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio004/hlspbaudio00464kbps.m3u8
 
 #EXTINF:-1 tvg-id="India_31" tvg-name="Kalai Fm-TAMIL" tvg-logo="" group-title="India",Kalai Fm-TAMIL
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3829,13 +3829,13 @@ http://stream.radioparadise.com/mellow-320
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://kathy.torontocast.com:2800/;
 
-#EXTINF:-1 tvg-id="The United States Of America_69" tvg-name="SMOOTH JAZZ 24/7" tvg-logo="" group-title="The United States Of America",SMOOTH JAZZ 24/7
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://www.smoothjazz247.com/smoothjazz24-7.m3u
-
-#EXTINF:-1 tvg-id="The United States Of America_70" tvg-name="Fox News Radio" tvg-logo="https://static.foxnews.com/radio.foxnews.com/content/uploads/2017/10/default_logo-150x150.png" group-title="The United States Of America",Fox News Radio
+#EXTINF:-1 tvg-id="The United States Of America_69" tvg-name="Fox News Radio" tvg-logo="https://static.foxnews.com/radio.foxnews.com/content/uploads/2017/10/default_logo-150x150.png" group-title="The United States Of America",Fox News Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://live.amperwave.net/direct/foxnewsradio-foxnewsradioaac-imc?source=fnr.web
+
+#EXTINF:-1 tvg-id="The United States Of America_70" tvg-name="SMOOTH JAZZ 24/7" tvg-logo="" group-title="The United States Of America",SMOOTH JAZZ 24/7
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://www.smoothjazz247.com/smoothjazz24-7.m3u
 
 #EXTINF:-1 tvg-id="The United States Of America_71" tvg-name="Frisky Deep" tvg-logo="https://s3.amazonaws.com/media.friskyradio.com/favicon.png" group-title="The United States Of America",Frisky Deep
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3885,13 +3885,13 @@ http://pureplay.cdnstream1.com/6025_128.mp3?DIST=TuneIn&TGT=TuneIn&maxServers=2&
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://www.181.fm/stream/pls/181-90scountry.m3u
 
-#EXTINF:-1 tvg-id="The United States Of America_83" tvg-name="intra Nature Radio - Meditation Nature Sounds Relaxation Spa and Sleep Music" tvg-logo="http://intranature.com/favicon.ico" group-title="The United States Of America",intra Nature Radio - Meditation Nature Sounds Relaxation Spa and Sleep Music
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://nap.casthost.net:8793/stream
-
-#EXTINF:-1 tvg-id="The United States Of America_84" tvg-name="Radio Country Live New York" tvg-logo="https://cdn-elements.radiostreamlive.com/v1/images/favicon.ico" group-title="The United States Of America",Radio Country Live New York
+#EXTINF:-1 tvg-id="The United States Of America_83" tvg-name="Radio Country Live New York" tvg-logo="https://cdn-elements.radiostreamlive.com/v1/images/favicon.ico" group-title="The United States Of America",Radio Country Live New York
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://streaming.radiostreamlive.com/radiocountrylive_devices
+
+#EXTINF:-1 tvg-id="The United States Of America_84" tvg-name="intra Nature Radio - Meditation Nature Sounds Relaxation Spa and Sleep Music" tvg-logo="http://intranature.com/favicon.ico" group-title="The United States Of America",intra Nature Radio - Meditation Nature Sounds Relaxation Spa and Sleep Music
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://nap.casthost.net:8793/stream
 
 #EXTINF:-1 tvg-id="The United States Of America_85" tvg-name="2000 FM - Country" tvg-logo="http://2000fm.net/images/logo.png" group-title="The United States Of America",2000 FM - Country
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
