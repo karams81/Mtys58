@@ -53,13 +53,6 @@ https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/bein-sports-3.m3u8
 
-#EXTINF:-1 tvg-id="e8cc468c3c3d0520b16c5c35c3f34274" tvg-name="05:30 Oklahoma City Thunder - Denver Nuggets" tvg-logo="https://im.mackolik.com/img/basketlogo/buyuk/369.gif" group-title="NBA",05:30 Oklahoma City Thunder - Denver Nuggets
-# logo-home: https://im.mackolik.com/img/basketlogo/buyuk/369.gif
-# logo-away: https://im.mackolik.com/img/basketlogo/buyuk/358.gif
-#EXTVLCOPT:http-referrer=https://www.atomsportv489.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://white-sky-0cce.nesiuaga.workers.dev/https://corestream.ronaldovurdu.help//hls/s-sport.m3u8
-
 #EXTINF:-1 tvg-id="ac8c860f2d686cc600c253728efb2858" tvg-name="16:00 Ukrayna - İspanya" tvg-logo="https://im.mackolik.com/img/basketlogo/buyuk/247.gif" group-title="Avrupa Elemeleri Grup A",16:00 Ukrayna - İspanya
 # logo-home: https://im.mackolik.com/img/basketlogo/buyuk/247.gif
 # logo-away: https://im.mackolik.com/img/basketlogo/buyuk/13.gif
