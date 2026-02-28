@@ -4,91 +4,11 @@
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
 https://8pi.d72577a9dd0ec30.sbs/patron/mono.m3u8
 # İki logo: https://patronsports2.cfd/img/logos/galatasaray.png | https://patronsports2.cfd/img/logos/alanyaspor.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/kocaelispor.png" group-title="CANLI MAÇLAR - Türkiye Trendyol Süper Lig",Kocaelispor - Beşiktaş [16:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/patron/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/kocaelispor.png | https://patronsports2.cfd/img/logos/besiktas.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/kasimpasa.png" group-title="CANLI MAÇLAR - Türkiye Trendyol Süper Lig",Kasımpaşa - Çaykur Rizespor [13:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/b2/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/kasimpasa.png | https://patronsports2.cfd/img/logos/caykurrizespor.png
 #EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/goztepe.png" group-title="CANLI MAÇLAR - Türkiye Trendyol Süper Lig",Göztepe - Eyüpspor [20:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
 https://8pi.d72577a9dd0ec30.sbs/b2/mono.m3u8
 # İki logo: https://patronsports2.cfd/img/logos/goztepe.png | https://patronsports2.cfd/img/logos/eyupspor.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/vanspor.png" group-title="CANLI MAÇLAR - Türkiye Trendyol 1. Lig",Van Spor FK - Erzurumspor FK [13:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/trtspor/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/vanspor.png | https://patronsports2.cfd/img/logos/erzurumspor.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/hatayspor.png" group-title="CANLI MAÇLAR - ",Hatayspor - Bodrum FK [13:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/bm2/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/hatayspor.png | https://patronsports2.cfd/img/logos/bodrumfk.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/holsteinkiel.png" group-title="CANLI MAÇLAR - Almanya 2. Bundesliga",Holstein Kiel - Elversberg [15:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/t3/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/holsteinkiel.png | https://patronsports2.cfd/img/logos/elversberg.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/kaiserslautern.png" group-title="CANLI MAÇLAR - Almanya 2. Bundesliga",Kaiserslautern - Paderborn [15:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/t2/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/kaiserslautern.png | https://patronsports2.cfd/img/logos/paderborn.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/abielefeld.png" group-title="CANLI MAÇLAR - Almanya 2. Bundesliga",A.Bielefeld - Hannover 96 [15:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/t4/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/abielefeld.png | https://patronsports2.cfd/img/logos/hannover.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/bournemouth.png" group-title="CANLI MAÇLAR - İngiltere Premier Lig",Bournemouth - Sunderland [15:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/b3/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/bournemouth.png | https://patronsports2.cfd/img/logos/sunderland.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/leicestercity.png" group-title="CANLI MAÇLAR - İngiltere Championship",Leicester - Norwich City [15:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/ex1/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/leicestercity.png | https://patronsports2.cfd/img/logos/norwichcity.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/redstar.png" group-title="CANLI MAÇLAR - İngiltere Premier Lig",Red Star - Le Mans FC [16:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/b4/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/redstar.png | https://patronsports2.cfd/img/logos/lemans.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/rayovallecano.png" group-title="CANLI MAÇLAR - İspanya LaLiga",Rayo Vallecano - Athletic Bilbao [16:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/ss/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/rayovallecano.png | https://patronsports2.cfd/img/logos/athleticbilbao.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/como.png" group-title="CANLI MAÇLAR - İtalya Serie A",Como - Lecce [17:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/t1/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/como.png | https://patronsports2.cfd/img/logos/lecce.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/leverkusen.png" group-title="CANLI MAÇLAR - Almanya Bundesliga",Leverkusen - Mainz 05 [17:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/t2/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/leverkusen.png | https://patronsports2.cfd/img/logos/mainz.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/wbremen.png" group-title="CANLI MAÇLAR - Almanya Bundesliga",W.Bremen - Heidenheim [17:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/ex1/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/wbremen.png | https://patronsports2.cfd/img/logos/heidenheim.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/m-gladbach.png" group-title="CANLI MAÇLAR - Almanya Bundesliga",M gladbach - Union Berlin [17:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/t4/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/m-gladbach.png | https://patronsports2.cfd/img/logos/unionberlin.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/hoffenheim.png" group-title="CANLI MAÇLAR - Almanya Bundesliga",Hoffenheim - St.Pauli [17:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://8pi.d72577a9dd0ec30.sbs/t3/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/hoffenheim.png | https://patronsports2.cfd/img/logos/stpauli.png
 #EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/burnley.png" group-title="CANLI MAÇLAR - İngiltere Premier Lig",Burnley - Brentford [18:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
